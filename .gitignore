@@ -1,0 +1,13 @@
+# generated databases and reports
+outputs/*.db
+outputs/*.xlsx
+!outputs/.gitkeep
+
+# real contractor data — never commit
+inputs/*
+!inputs/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/

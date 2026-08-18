@@ -1,0 +1,19 @@
+dimension,key,amount,currency
+account,Demolition,280894.35,AUD
+account,Insurance,61406.62,AUD
+account,Materials,1513875.91,AUD
+account,Office Overhead,63992.89,AUD
+account,Plant Hire,465181.61,AUD
+account,Preliminaries,446417.49,AUD
+account,Subcontractors,2636481.66,AUD
+account,Vehicle Expenses,57102.09,AUD
+account,Wages,1461505.85,AUD
+project,(unassigned),652343.68,AUD
+project,PRJ-001,1199817.06,AUD
+project,PRJ-002,1051569.35,AUD
+project,PRJ-003,1138008.90,AUD
+project,PRJ-004,1387975.93,AUD
+project,PRJ-005,788652.55,AUD
+project,PRJ-006,768491.00,AUD
+tax,GST Payable,552535.51,AUD
+total,cost_ex_tax,6986858.47,AUD

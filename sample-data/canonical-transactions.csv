@@ -1,0 +1,28 @@
+tenant,platform,txn_type,txn_id,line_id,date,vendor,account,project,cost_code,tax_code,amount,currency,is_tax,is_void,memo
+Northwind Construction Pty Ltd,qbo,Bill,B-1001,B-1001-L1,2026-07-03,Boral Concrete,Materials,PRJ-01,03-30-00,,12400.00,AUD,0,0,N32 concrete supply — slab pour A
+Northwind Construction Pty Ltd,qbo,Bill,B-1001,B-1001-L2,2026-07-03,Boral Concrete,Materials,PRJ-01,03-30-00,,3100.00,AUD,0,0,N32 concrete supply — slab pour B
+Northwind Construction Pty Ltd,qbo,Bill,B-1001,B-1001-L3,2026-07-03,Boral Concrete,GST Payable,,,GST,1550.00,AUD,1,0,GST on B-1001
+Northwind Construction Pty Ltd,qbo,Bill,B-1002,B-1002-L1,2026-07-05,SteelFab Australia,Materials,PRJ-01,05-12-00,,8600.00,AUD,0,0,310UB structural steel — portal frames
+Northwind Construction Pty Ltd,qbo,Bill,B-1002,B-1002-L2,2026-07-05,SteelFab Australia,Materials,PRJ-02,05-12-00,,5400.00,AUD,0,0,SHS columns — canopy
+Northwind Construction Pty Ltd,qbo,Bill,B-1002,B-1002-L3,2026-07-05,SteelFab Australia,Materials,,,,220.00,AUD,0,0,Freight — split delivery
+Northwind Construction Pty Ltd,qbo,Bill,B-1002,B-1002-L4,2026-07-05,SteelFab Australia,GST Payable,,,GST,1422.00,AUD,1,0,GST on B-1002
+Northwind Construction Pty Ltd,qbo,Bill,B-1003,B-1003-L1,2026-07-08,CivilWorks Earthmoving,Subcontractors,PRJ-01,31-23-00,,18750.00,AUD,0,0,Bulk earthworks — progress claim 2
+Northwind Construction Pty Ltd,qbo,Bill,B-1003,B-1003-L2,2026-07-08,CivilWorks Earthmoving,GST Payable,,,GST,1875.00,AUD,1,0,GST on B-1003
+Northwind Construction Pty Ltd,qbo,Bill,B-1004,B-1004-L1,2026-07-10,Coates Hire,Plant Hire,PRJ-01,31-23-00,,3200.00,AUD,0,0,Excavator hire — 2 weeks
+Northwind Construction Pty Ltd,qbo,Bill,B-1004,B-1004-L2,2026-07-10,Coates Hire,Plant Hire,PRJ-03,31-23-00,,2800.00,AUD,0,0,Crane hire — girder lift
+Northwind Construction Pty Ltd,qbo,Bill,B-1004,B-1004-L3,2026-07-10,Coates Hire,GST Payable,,,GST,600.00,AUD,1,0,GST on B-1004
+Northwind Construction Pty Ltd,qbo,Bill,B-1005,B-1005-L1,2026-07-14,Metro Roofing Co,Subcontractors,PRJ-02,07-40-00,,22300.00,AUD,0,0,Colorbond cladding — east elevation
+Northwind Construction Pty Ltd,qbo,Bill,B-1005,B-1005-L2,2026-07-14,Metro Roofing Co,GST Payable,,,GST,2230.00,AUD,1,0,GST on B-1005
+Northwind Construction Pty Ltd,qbo,Bill,B-1006,B-1006-L1,2026-07-15,OfficeWorks,Materials,PRJ-02,,,640.00,AUD,0,0,Sundries
+Northwind Construction Pty Ltd,qbo,Bill,B-1006,B-1006-L2,2026-07-15,OfficeWorks,GST Payable,,,GST,64.00,AUD,1,0,GST on B-1006
+Northwind Construction Pty Ltd,qbo,Bill,B-1007,B-1007-L1,2026-07-18,CivilWorks Earthmoving,Subcontractors,PRJ-03,32-13-00,,14200.00,AUD,0,0,Approach paving — south abutment
+Northwind Construction Pty Ltd,qbo,Bill,B-1007,B-1007-L2,2026-07-18,CivilWorks Earthmoving,GST Payable,,,GST,1420.00,AUD,1,0,GST on B-1007
+Northwind Construction Pty Ltd,qbo,CreditNote,CN-2001,CN-2001-L1,2026-07-22,Metro Roofing Co,Subcontractors,PRJ-02,07-40-00,,-1800.00,AUD,0,0,Credit — over-claim adjustment PC5
+Northwind Construction Pty Ltd,qbo,CreditNote,CN-2001,CN-2001-L2,2026-07-22,Metro Roofing Co,GST Payable,,,GST,-180.00,AUD,1,0,GST on CN-2001
+Northwind Construction Pty Ltd,qbo,JournalEntry,JE-3001,JE-3001-L1,2026-07-25,Northwind Payroll,Wages,PRJ-01,03-30-00,,6800.00,AUD,0,0,Site labour — concrete crew wk30
+Northwind Construction Pty Ltd,qbo,JournalEntry,JE-3001,JE-3001-L2,2026-07-25,Northwind Payroll,Wages,PRJ-02,07-40-00,,4200.00,AUD,0,0,Site labour — fixing crew wk30
+Northwind Construction Pty Ltd,qbo,JournalEntry,JE-3001,JE-3001-L3,2026-07-25,Northwind Payroll,Wages,,,,3500.00,AUD,0,0,Head office salaries wk30
+Northwind Construction Pty Ltd,qbo,Bill,B-1008,B-1008-L1,2026-07-28,OfficeWorks,Office Overhead,,,,900.00,AUD,0,0,Monthly software + stationery
+Northwind Construction Pty Ltd,qbo,Bill,B-1008,B-1008-L2,2026-07-28,OfficeWorks,GST Payable,,,GST,90.00,AUD,1,0,GST on B-1008
+Northwind Construction Pty Ltd,qbo,Bill,B-1009,B-1009-L1,2026-07-29,Coates Hire,Plant Hire,PRJ-03,31-23-00,,1500.00,AUD,0,1,Scissor lift — VOIDED duplicate
+Northwind Construction Pty Ltd,qbo,Bill,B-1009,B-1009-L2,2026-07-29,Coates Hire,GST Payable,,,GST,150.00,AUD,1,1,GST on B-1009

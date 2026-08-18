@@ -1,0 +1,12 @@
+dimension,key,amount,currency
+account,Materials,30360.00,AUD
+account,Office Overhead,900.00,AUD
+account,Plant Hire,6000.00,AUD
+account,Subcontractors,53450.00,AUD
+account,Wages,14500.00,AUD
+project,(unassigned),4620.00,AUD
+project,PRJ-01,52850.00,AUD
+project,PRJ-02,30740.00,AUD
+project,PRJ-03,17000.00,AUD
+tax,GST Payable,9071.00,AUD
+total,cost_ex_tax,105210.00,AUD

@@ -1,0 +1,2189 @@
+{
+  "meta": [
+    [
+      "workbook_schema_version",
+      "0.1.0"
+    ],
+    [
+      "tenant",
+      "Summit Ridge Construction Pty Ltd"
+    ],
+    [
+      "functional_currency",
+      "AUD"
+    ],
+    [
+      "dataset_seed",
+      "20260814"
+    ],
+    [
+      "as_of_date",
+      "2026-07-31"
+    ]
+  ],
+  "projects": [
+    [
+      "PRJ-001",
+      "WHX",
+      "Westhaven Warehouse Extension",
+      "completed",
+      "healthy"
+    ],
+    [
+      "PRJ-002",
+      "MCF",
+      "Meridian Medical Centre Fitout",
+      "completed",
+      "labour_overrun"
+    ],
+    [
+      "PRJ-003",
+      "APR",
+      "Ashgrove Apartment Refurbishment",
+      "completed",
+      "late_client"
+    ],
+    [
+      "PRJ-004",
+      "MBR",
+      "Murrin Bridge Repair",
+      "active",
+      "retention_heavy"
+    ],
+    [
+      "PRJ-005",
+      "ISL",
+      "Ironbank Industrial Slab",
+      "completed",
+      "materials_overrun"
+    ],
+    [
+      "PRJ-006",
+      "SCH",
+      "Sandstone School Upgrade",
+      "active",
+      "pending_variations"
+    ]
+  ],
+  "cost_codes": [
+    [
+      "01-50-00",
+      "Site Services"
+    ],
+    [
+      "02-41-00",
+      "Demolition works"
+    ],
+    [
+      "03-30-00",
+      "Concrete supply"
+    ],
+    [
+      "05-12-00",
+      "Structural steel"
+    ],
+    [
+      "06-10-00",
+      "Carpentry package"
+    ],
+    [
+      "09-21-00",
+      "Partitions and linings"
+    ],
+    [
+      "09-90-00",
+      "Painting package"
+    ],
+    [
+      "22-00-00",
+      "Hydraulic services"
+    ],
+    [
+      "23-00-00",
+      "Mechanical services"
+    ],
+    [
+      "26-00-00",
+      "Electrical services"
+    ],
+    [
+      "31-23-00",
+      "Earthworks and plant"
+    ]
+  ],
+  "activities": [
+    [
+      "WHX",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "WHX",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2025-02-01",
+      "2025-11-30",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "MCF",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2025-04-01",
+      "2026-02-28",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "APR",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2025-06-01",
+      "2026-06-30",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "MBR",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2025-08-01",
+      "2026-08-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "ISL",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2025-10-01",
+      "2026-05-31",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "01-50-00",
+      "Site Services",
+      8.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "02-41-00",
+      "Demolition works",
+      6.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "03-30-00",
+      "Concrete supply",
+      15.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "05-12-00",
+      "Structural steel",
+      13.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "06-10-00",
+      "Carpentry package",
+      8.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "09-21-00",
+      "Partitions and linings",
+      10.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "09-90-00",
+      "Painting package",
+      6.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "22-00-00",
+      "Hydraulic services",
+      8.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "23-00-00",
+      "Mechanical services",
+      8.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "26-00-00",
+      "Electrical services",
+      9.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ],
+    [
+      "SCH",
+      "31-23-00",
+      "Earthworks and plant",
+      9.0,
+      "weighted %",
+      "2026-01-01",
+      "2026-12-15",
+      "weighted_milestone"
+    ]
+  ],
+  "budgets": [
+    [
+      "WHX",
+      0,
+      "approved",
+      "01-50-00",
+      118400.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "02-41-00",
+      88800.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "03-30-00",
+      222000.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "05-12-00",
+      192400.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "06-10-00",
+      118400.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "09-21-00",
+      148000.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "09-90-00",
+      88800.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "22-00-00",
+      118400.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "23-00-00",
+      118400.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "26-00-00",
+      133200.0,
+      "Original tender"
+    ],
+    [
+      "WHX",
+      0,
+      "approved",
+      "31-23-00",
+      133200.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "01-50-00",
+      89600.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "02-41-00",
+      67200.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "03-30-00",
+      168000.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "05-12-00",
+      145600.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "06-10-00",
+      89600.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "09-21-00",
+      112000.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "09-90-00",
+      67200.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "22-00-00",
+      89600.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "23-00-00",
+      89600.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "26-00-00",
+      100800.0,
+      "Original tender"
+    ],
+    [
+      "MCF",
+      0,
+      "approved",
+      "31-23-00",
+      100800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "01-50-00",
+      108800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "02-41-00",
+      81600.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "03-30-00",
+      204000.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "05-12-00",
+      176800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "06-10-00",
+      108800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "09-21-00",
+      136000.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "09-90-00",
+      81600.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "22-00-00",
+      108800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "23-00-00",
+      108800.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "26-00-00",
+      122400.0,
+      "Original tender"
+    ],
+    [
+      "APR",
+      0,
+      "approved",
+      "31-23-00",
+      122400.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "01-50-00",
+      148800.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "02-41-00",
+      111600.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "03-30-00",
+      279000.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "05-12-00",
+      241800.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "06-10-00",
+      148800.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "09-21-00",
+      186000.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "09-90-00",
+      111600.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "22-00-00",
+      148800.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "23-00-00",
+      148800.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "26-00-00",
+      167400.0,
+      "Original tender"
+    ],
+    [
+      "MBR",
+      0,
+      "approved",
+      "31-23-00",
+      167400.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "01-50-00",
+      73600.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "02-41-00",
+      55200.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "03-30-00",
+      138000.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "05-12-00",
+      119600.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "06-10-00",
+      73600.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "09-21-00",
+      92000.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "09-90-00",
+      55200.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "22-00-00",
+      73600.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "23-00-00",
+      73600.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "26-00-00",
+      82800.0,
+      "Original tender"
+    ],
+    [
+      "ISL",
+      0,
+      "approved",
+      "31-23-00",
+      82800.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "01-50-00",
+      123200.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "02-41-00",
+      92400.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "03-30-00",
+      231000.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "05-12-00",
+      200200.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "06-10-00",
+      123200.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "09-21-00",
+      154000.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "09-90-00",
+      92400.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "22-00-00",
+      123200.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "23-00-00",
+      123200.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "26-00-00",
+      138600.0,
+      "Original tender"
+    ],
+    [
+      "SCH",
+      0,
+      "approved",
+      "31-23-00",
+      138600.0,
+      "Original tender"
+    ]
+  ],
+  "progress": [
+    [
+      "WHX",
+      "01-50-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "02-41-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "03-30-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "05-12-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "06-10-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "09-21-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "09-90-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "22-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "23-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "26-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "WHX",
+      "31-23-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "01-50-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "02-41-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "03-30-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "05-12-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "06-10-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "09-21-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "09-90-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "22-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "23-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "26-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MCF",
+      "31-23-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "01-50-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "02-41-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "03-30-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "05-12-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "06-10-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "09-21-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "09-90-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "22-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "23-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "26-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "APR",
+      "31-23-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "01-50-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "02-41-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "03-30-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "05-12-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "06-10-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "09-21-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "09-90-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "22-00-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "23-00-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "26-00-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "MBR",
+      "31-23-00",
+      "2026-07-31",
+      92.3,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "01-50-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "02-41-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "03-30-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "05-12-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "06-10-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "09-21-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "09-90-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "22-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "23-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "26-00-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "ISL",
+      "31-23-00",
+      "2026-07-31",
+      100,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "01-50-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "02-41-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "03-30-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "05-12-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "06-10-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "09-21-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "09-90-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "22-00-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "23-00-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "26-00-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ],
+    [
+      "SCH",
+      "31-23-00",
+      "2026-07-31",
+      58.3,
+      "Synthetic site PM"
+    ]
+  ],
+  "contracts": [
+    [
+      "WHX",
+      "Westhaven Logistics",
+      1480000,
+      30,
+      "monthly",
+      5.0,
+      "practical_completion",
+      4
+    ],
+    [
+      "MCF",
+      "Meridian Health Group",
+      1120000,
+      30,
+      "monthly",
+      5.0,
+      "practical_completion",
+      7
+    ],
+    [
+      "APR",
+      "Ashgrove Residential",
+      1360000,
+      30,
+      "monthly",
+      5.0,
+      "practical_completion",
+      20
+    ],
+    [
+      "MBR",
+      "State Roads Authority",
+      1860000,
+      45,
+      "monthly",
+      10.0,
+      "practical_completion",
+      10
+    ],
+    [
+      "ISL",
+      "Ironbank Manufacturing",
+      920000,
+      30,
+      "monthly",
+      5.0,
+      "practical_completion",
+      5
+    ],
+    [
+      "SCH",
+      "Department of Education",
+      1540000,
+      30,
+      "monthly",
+      5.0,
+      "practical_completion",
+      14
+    ]
+  ],
+  "contract_changes": [
+    [
+      "MCF",
+      1,
+      "Approved infection-control upgrade",
+      78000,
+      "approved",
+      "2025-09-15"
+    ],
+    [
+      "ISL",
+      1,
+      "Approved concrete escalation",
+      46000,
+      "approved",
+      "2026-01-20"
+    ],
+    [
+      "SCH",
+      1,
+      "Pending asbestos remediation",
+      112000,
+      "pending",
+      ""
+    ]
+  ],
+  "commitments": [
+    [
+      "WHX",
+      "Precision Carpentry",
+      "06-10-00",
+      108928.0,
+      30,
+      5.0
+    ],
+    [
+      "WHX",
+      "Axis Interiors",
+      "09-21-00",
+      136160.0,
+      30,
+      5.0
+    ],
+    [
+      "WHX",
+      "PrimeCo Painting",
+      "09-90-00",
+      81696.0,
+      30,
+      5.0
+    ],
+    [
+      "WHX",
+      "Flowline Plumbing",
+      "22-00-00",
+      108928.0,
+      30,
+      5.0
+    ],
+    [
+      "WHX",
+      "Climate Mechanical",
+      "23-00-00",
+      108928.0,
+      30,
+      5.0
+    ],
+    [
+      "WHX",
+      "VoltEdge Electrical",
+      "26-00-00",
+      122544.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "Precision Carpentry",
+      "06-10-00",
+      82432.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "Axis Interiors",
+      "09-21-00",
+      103040.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "PrimeCo Painting",
+      "09-90-00",
+      61824.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "Flowline Plumbing",
+      "22-00-00",
+      82432.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "Climate Mechanical",
+      "23-00-00",
+      82432.0,
+      30,
+      5.0
+    ],
+    [
+      "MCF",
+      "VoltEdge Electrical",
+      "26-00-00",
+      92736.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "Precision Carpentry",
+      "06-10-00",
+      100096.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "Axis Interiors",
+      "09-21-00",
+      125120.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "PrimeCo Painting",
+      "09-90-00",
+      75072.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "Flowline Plumbing",
+      "22-00-00",
+      100096.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "Climate Mechanical",
+      "23-00-00",
+      100096.0,
+      30,
+      5.0
+    ],
+    [
+      "APR",
+      "VoltEdge Electrical",
+      "26-00-00",
+      112608.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "Precision Carpentry",
+      "06-10-00",
+      136896.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "Axis Interiors",
+      "09-21-00",
+      171120.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "PrimeCo Painting",
+      "09-90-00",
+      102672.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "Flowline Plumbing",
+      "22-00-00",
+      136896.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "Climate Mechanical",
+      "23-00-00",
+      136896.0,
+      30,
+      5.0
+    ],
+    [
+      "MBR",
+      "VoltEdge Electrical",
+      "26-00-00",
+      154008.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "Precision Carpentry",
+      "06-10-00",
+      67712.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "Axis Interiors",
+      "09-21-00",
+      84640.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "PrimeCo Painting",
+      "09-90-00",
+      50784.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "Flowline Plumbing",
+      "22-00-00",
+      67712.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "Climate Mechanical",
+      "23-00-00",
+      67712.0,
+      30,
+      5.0
+    ],
+    [
+      "ISL",
+      "VoltEdge Electrical",
+      "26-00-00",
+      76176.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "Precision Carpentry",
+      "06-10-00",
+      113344.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "Axis Interiors",
+      "09-21-00",
+      141680.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "PrimeCo Painting",
+      "09-90-00",
+      85008.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "Flowline Plumbing",
+      "22-00-00",
+      113344.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "Climate Mechanical",
+      "23-00-00",
+      113344.0,
+      30,
+      5.0
+    ],
+    [
+      "SCH",
+      "VoltEdge Electrical",
+      "26-00-00",
+      127512.0,
+      30,
+      5.0
+    ]
+  ],
+  "cash_inputs": [
+    [
+      "opening_bank_balance",
+      284000,
+      "as at 2026-08-01"
+    ],
+    [
+      "forecast_start_date",
+      "2026-08-01",
+      ""
+    ],
+    [
+      "payroll_fortnightly",
+      96500,
+      "site + office"
+    ],
+    [
+      "overhead_monthly",
+      42000,
+      "head office run rate"
+    ],
+    [
+      "gst_next_payment_date",
+      "2026-08-28",
+      ""
+    ]
+  ],
+  "sources": [
+    [
+      "Transactions",
+      "Synthetic generator",
+      "Seed 20260814",
+      "For integration testing only"
+    ],
+    [
+      "Amounts",
+      "Accounting identities",
+      "AUD ex-GST plus separate GST",
+      "Not real company data"
+    ]
+  ]
+}

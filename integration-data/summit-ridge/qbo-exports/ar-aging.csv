@@ -1,0 +1,9 @@
+customer,project,doc_type,doc_no,issue_date,due_date,amount,open_balance
+Westhaven Logistics,WHX,Claim,WHX-PC-14,2026-07-12,2026-08-11,96000.00,96000.00
+Meridian Health Group,MCF,Claim,MCF-PC-11,2026-07-20,2026-08-19,88000.00,88000.00
+Ashgrove Residential,APR,Claim,APR-PC-09,2026-06-07,2026-07-07,132000.00,132000.00
+Ashgrove Residential,APR,Claim,APR-PC-10,2026-07-12,2026-08-11,74000.00,74000.00
+Ironbank Manufacturing,ISL,Claim,ISL-PC-08,2026-07-24,2026-08-23,61000.00,61000.00
+State Roads Authority,MBR,Claim,MBR-PC-05,2026-08-06,2026-09-05,145000.00,145000.00
+State Roads Authority,MBR,Claim,MBR-PC-06,2026-09-03,2026-10-03,120000.00,120000.00
+Department of Education,SCH,Claim,SCH-PC-04,2026-08-13,2026-09-12,132000.00,132000.00

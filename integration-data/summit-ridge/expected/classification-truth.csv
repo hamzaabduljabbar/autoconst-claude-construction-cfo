@@ -1,0 +1,595 @@
+txn_type,txn_id,account,project,amount_minor,memo,true_cost_code
+Bill,B-10004,Subcontractors,PRJ-001,1628000,Partitions and linings — Westhaven Warehouse Extension — Feb 2025,09-21-00
+Bill,B-10006,Subcontractors,PRJ-001,1255040,Mechanical services — Westhaven Warehouse Extension — Feb 2025,23-00-00
+Bill,B-10007,Plant Hire,PRJ-001,1398600,Earthworks and plant — Westhaven Warehouse Extension — Feb 2025,31-23-00
+Bill,B-10003,Subcontractors,PRJ-001,923520,Carpentry package — Westhaven Warehouse Extension — Feb 2025,06-10-00
+JournalEntry,PAY-20250214,Wages,PRJ-001,933197,Site payroll allocation — fortnight ending 2025-02-14,01-50-00
+Bill,B-10001,Materials,PRJ-001,1642800,Concrete supply — Westhaven Warehouse Extension — Feb 2025,03-30-00
+Bill,B-10005,Subcontractors,PRJ-001,959040,Painting package — Westhaven Warehouse Extension — Feb 2025,09-90-00
+Bill,B-10002,Materials,PRJ-001,1443000,Structural steel — Westhaven Warehouse Extension — Feb 2025,05-12-00
+JournalEntry,PAY-20250228,Wages,PRJ-001,549458,Site payroll allocation — fortnight ending 2025-02-28,01-50-00
+Bill,B-10014,Demolition,PRJ-001,745920,Demolition works — Westhaven Warehouse Extension — Mar 2025,02-41-00
+Bill,B-10015,Materials,PRJ-001,2664000,Concrete supply — Westhaven Warehouse Extension — Mar 2025,03-30-00
+Bill,B-10020,Subcontractors,PRJ-001,1132200,Electrical services — Westhaven Warehouse Extension — Mar 2025,26-00-00
+Bill,B-10017,Subcontractors,PRJ-001,1790800,Partitions and linings — Westhaven Warehouse Extension — Mar 2025,09-21-00
+Bill,B-10018,Subcontractors,PRJ-001,1041920,Hydraulic services — Westhaven Warehouse Extension — Mar 2025,22-00-00
+Bill,B-10013,Preliminaries,PRJ-001,1065600,Site Services — Westhaven Warehouse Extension — Mar 2025,01-50-00
+Bill,B-10021,Plant Hire,PRJ-001,1118880,Earthworks and plant — Westhaven Warehouse Extension — Mar 2025,31-23-00
+JournalEntry,PAY-20250314,Wages,PRJ-001,675730,Site payroll allocation — fortnight ending 2025-03-14,01-50-00
+Bill,B-10019,Subcontractors,PRJ-001,1302400,Mechanical services — Westhaven Warehouse Extension — Mar 2025,23-00-00
+JournalEntry,PAY-20250328,Wages,PRJ-001,626538,Site payroll allocation — fortnight ending 2025-03-28,01-50-00
+Bill,B-10016,Subcontractors,PRJ-001,1373440,Carpentry package — Westhaven Warehouse Extension — Mar 2025,06-10-00
+Bill,B-10037,Materials,PRJ-002,1323636,Structural steel — Meridian Medical Centre Fitout — Apr 2025,05-12-00
+Bill,B-10041,Subcontractors,PRJ-002,943855,Electrical services — Meridian Medical Centre Fitout — Apr 2025,26-00-00
+Bill,B-10029,Subcontractors,PRJ-001,1228400,Partitions and linings — Westhaven Warehouse Extension — Apr 2025,09-21-00
+Bill,B-10030,Subcontractors,PRJ-001,701520,Painting package — Westhaven Warehouse Extension — Apr 2025,09-90-00
+Bill,B-10028,Subcontractors,PRJ-001,864320,Carpentry package — Westhaven Warehouse Extension — Apr 2025,06-10-00
+Bill,B-10033,Subcontractors,PRJ-001,1052280,Electrical services — Westhaven Warehouse Extension — Apr 2025,26-00-00
+Bill,B-10036,Materials,PRJ-002,1282909,Concrete supply — Meridian Medical Centre Fitout — Apr 2025,03-30-00
+Bill,B-10032,Subcontractors,PRJ-001,1219520,Mechanical services — Westhaven Warehouse Extension — Apr 2025,23-00-00
+Bill,B-10035,Demolition,PRJ-002,586473,Demolition works — Meridian Medical Centre Fitout — Apr 2025,02-41-00
+Bill,B-10039,Subcontractors,PRJ-002,635345,Painting package — Meridian Medical Centre Fitout — Apr 2025,09-90-00
+Bill,B-10038,Subcontractors,PRJ-002,1001891,Carpentry package — Meridian Medical Centre Fitout — Apr 2025,06-10-00
+JournalEntry,PAY-20250414,Wages,PRJ-001,744914,Site payroll allocation — fortnight ending 2025-04-14,01-50-00
+JournalEntry,PAY-20250414,Wages,PRJ-002,1149141,Site payroll allocation — fortnight ending 2025-04-14,01-50-00
+Bill,B-10034,Plant Hire,PRJ-001,985680,Earthworks and plant — Westhaven Warehouse Extension — Apr 2025,31-23-00
+Bill,B-10042,Plant Hire,PRJ-002,760582,Earthworks and plant — Meridian Medical Centre Fitout — Apr 2025,31-23-00
+Bill,B-10031,Subcontractors,PRJ-001,1373440,Hydraulic services — Westhaven Warehouse Extension — Apr 2025,22-00-00
+Bill,B-10027,Demolition,PRJ-001,959040,Demolition works — Westhaven Warehouse Extension — Apr 2025,02-41-00
+Bill,B-10040,Subcontractors,PRJ-002,765673,Hydraulic services — Meridian Medical Centre Fitout — Apr 2025,22-00-00
+JournalEntry,PAY-20250428,Wages,PRJ-001,684371,Site payroll allocation — fortnight ending 2025-04-28,01-50-00
+JournalEntry,PAY-20250428,Wages,PRJ-002,1115124,Site payroll allocation — fortnight ending 2025-04-28,01-50-00
+Bill,B-10053,Subcontractors,PRJ-001,1065600,Hydraulic services — Westhaven Warehouse Extension — May 2025,22-00-00
+Bill,B-10064,Plant Hire,PRJ-002,916364,Earthworks and plant — Meridian Medical Centre Fitout — May 2025,31-23-00
+Bill,B-10055,Preliminaries,PRJ-002,960023,Site Services — Meridian Medical Centre Fitout — May 2025,01-50-00
+Bill,B-10048,Demolition,PRJ-001,799200,Demolition works — Westhaven Warehouse Extension — May 2025,02-41-00
+Bill,B-10052,Subcontractors,PRJ-001,843600,Painting package — Westhaven Warehouse Extension — May 2025,09-90-00
+Bill,B-10057,Materials,PRJ-002,1557818,Concrete supply — Meridian Medical Centre Fitout — May 2025,03-30-00
+JournalEntry,PAY-20250514,Wages,PRJ-001,711114,Site payroll allocation — fortnight ending 2025-05-14,01-50-00
+JournalEntry,PAY-20250514,Wages,PRJ-002,950803,Site payroll allocation — fortnight ending 2025-05-14,01-50-00
+Bill,B-10051,Subcontractors,PRJ-001,1184000,Partitions and linings — Westhaven Warehouse Extension — May 2025,09-21-00
+Bill,B-10061,Subcontractors,PRJ-002,700509,Hydraulic services — Meridian Medical Centre Fitout — May 2025,22-00-00
+Bill,B-10058,Materials,PRJ-002,1681018,Structural steel — Meridian Medical Centre Fitout — May 2025,05-12-00
+Bill,B-10062,Subcontractors,PRJ-002,977455,Mechanical services — Meridian Medical Centre Fitout — May 2025,23-00-00
+Bill,B-10056,Demolition,PRJ-002,690327,Demolition works — Meridian Medical Centre Fitout — May 2025,02-41-00
+Bill,B-10063,Subcontractors,PRJ-002,843055,Electrical services — Meridian Medical Centre Fitout — May 2025,26-00-00
+Bill,B-10060,Subcontractors,PRJ-002,714764,Painting package — Meridian Medical Centre Fitout — May 2025,09-90-00
+Bill,B-10049,Materials,PRJ-001,1924000,Structural steel — Westhaven Warehouse Extension — May 2025,05-12-00
+Bill,B-10050,Subcontractors,PRJ-001,947200,Carpentry package — Westhaven Warehouse Extension — May 2025,06-10-00
+Bill,B-10054,Plant Hire,PRJ-001,1371960,Earthworks and plant — Westhaven Warehouse Extension — May 2025,31-23-00
+JournalEntry,PAY-20250528,Wages,PRJ-001,550116,Site payroll allocation — fortnight ending 2025-05-28,01-50-00
+JournalEntry,PAY-20250528,Wages,PRJ-002,1122484,Site payroll allocation — fortnight ending 2025-05-28,01-50-00
+Bill,B-10059,Subcontractors,PRJ-002,1402444,Partitions and linings — Meridian Medical Centre Fitout — May 2025,09-21-00
+Bill,B-10091,Subcontractors,PRJ-003,795077,Carpentry package — Ashgrove Apartment Refurbishment — Jun 2025,06-10-00
+Bill,B-10077,Subcontractors,PRJ-001,1184000,Mechanical services — Westhaven Warehouse Extension — Jun 2025,23-00-00
+Bill,B-10070,Preliminaries,PRJ-001,1337920,Site Services — Westhaven Warehouse Extension — Jun 2025,01-50-00
+Bill,B-10071,Demolition,PRJ-001,808080,Demolition works — Westhaven Warehouse Extension — Jun 2025,02-41-00
+Bill,B-10082,Materials,PRJ-002,1374545,Concrete supply — Meridian Medical Centre Fitout — Jun 2025,03-30-00
+Bill,B-10094,Subcontractors,PRJ-003,1195754,Electrical services — Ashgrove Apartment Refurbishment — Jun 2025,26-00-00
+Bill,B-10076,Subcontractors,PRJ-001,1266880,Hydraulic services — Westhaven Warehouse Extension — Jun 2025,22-00-00
+Bill,B-10090,Materials,PRJ-003,1700000,Structural steel — Ashgrove Apartment Refurbishment — Jun 2025,05-12-00
+Bill,B-10093,Subcontractors,PRJ-003,761600,Mechanical services — Ashgrove Apartment Refurbishment — Jun 2025,23-00-00
+Bill,B-10088,Demolition,PRJ-003,797169,Demolition works — Ashgrove Apartment Refurbishment — Jun 2025,02-41-00
+JournalEntry,PAY-20250614,Wages,PRJ-001,634997,Site payroll allocation — fortnight ending 2025-06-14,01-50-00
+JournalEntry,PAY-20250614,Wages,PRJ-002,727173,Site payroll allocation — fortnight ending 2025-06-14,01-50-00
+JournalEntry,PAY-20250614,Wages,PRJ-003,772729,Site payroll allocation — fortnight ending 2025-06-14,01-50-00
+Bill,B-10085,Subcontractors,PRJ-002,879709,Hydraulic services — Meridian Medical Centre Fitout — Jun 2025,22-00-00
+Bill,B-10074,Subcontractors,PRJ-001,1361600,Carpentry package — Westhaven Warehouse Extension — Jun 2025,06-10-00
+Bill,B-10080,Preliminaries,PRJ-002,1411119,Site Services — Meridian Medical Centre Fitout — Jun 2025,01-50-00
+Bill,B-10087,Plant Hire,PRJ-002,1136291,Earthworks and plant — Meridian Medical Centre Fitout — Jun 2025,31-23-00
+Bill,B-10072,Materials,PRJ-001,1953600,Concrete supply — Westhaven Warehouse Extension — Jun 2025,03-30-00
+Bill,B-10078,Subcontractors,PRJ-001,1638360,Electrical services — Westhaven Warehouse Extension — Jun 2025,26-00-00
+Bill,B-10083,Materials,PRJ-002,1138327,Structural steel — Meridian Medical Centre Fitout — Jun 2025,05-12-00
+Bill,B-10089,Materials,PRJ-003,1412308,Concrete supply — Ashgrove Apartment Refurbishment — Jun 2025,03-30-00
+Bill,B-10075,Subcontractors,PRJ-001,1672400,Partitions and linings — Westhaven Warehouse Extension — Jun 2025,09-21-00
+Bill,B-10081,Demolition,PRJ-002,720873,Demolition works — Meridian Medical Centre Fitout — Jun 2025,02-41-00
+Bill,B-10084,Subcontractors,PRJ-002,1807273,Partitions and linings — Meridian Medical Centre Fitout — Jun 2025,09-21-00
+Bill,B-10086,Subcontractors,PRJ-002,668945,Electrical services — Meridian Medical Centre Fitout — Jun 2025,26-00-00
+Bill,B-10092,Subcontractors,PRJ-003,646523,Painting package — Ashgrove Apartment Refurbishment — Jun 2025,09-90-00
+Bill,B-10079,Plant Hire,PRJ-001,1358640,Earthworks and plant — Westhaven Warehouse Extension — Jun 2025,31-23-00
+JournalEntry,PAY-20250628,Wages,PRJ-001,829888,Site payroll allocation — fortnight ending 2025-06-28,01-50-00
+JournalEntry,PAY-20250628,Wages,PRJ-002,728197,Site payroll allocation — fortnight ending 2025-06-28,01-50-00
+JournalEntry,PAY-20250628,Wages,PRJ-003,941879,Site payroll allocation — fortnight ending 2025-06-28,01-50-00
+Bill,B-10073,Materials,PRJ-001,1500720,Structural steel — Westhaven Warehouse Extension — Jun 2025,05-12-00
+Bill,B-10107,Subcontractors,PRJ-002,741236,Carpentry package — Meridian Medical Centre Fitout — Jul 2025,06-10-00
+Bill,B-10117,Subcontractors,PRJ-003,931077,Partitions and linings — Ashgrove Apartment Refurbishment — Jul 2025,09-21-00
+Bill,B-10121,Subcontractors,PRJ-003,1186338,Electrical services — Ashgrove Apartment Refurbishment — Jul 2025,26-00-00
+Bill,B-10115,Materials,PRJ-003,1020000,Structural steel — Ashgrove Apartment Refurbishment — Jul 2025,05-12-00
+Bill,B-10113,Preliminaries,PRJ-003,1004308,Site Services — Ashgrove Apartment Refurbishment — Jul 2025,01-50-00
+Bill,B-10122,Plant Hire,PRJ-003,1205169,Earthworks and plant — Ashgrove Apartment Refurbishment — Jul 2025,31-23-00
+Bill,B-10108,Subcontractors,PRJ-002,1561484,Partitions and linings — Meridian Medical Centre Fitout — Jul 2025,09-21-00
+Bill,B-10109,Subcontractors,PRJ-002,641455,Painting package — Meridian Medical Centre Fitout — Jul 2025,09-90-00
+Bill,B-10110,Subcontractors,PRJ-002,904145,Hydraulic services — Meridian Medical Centre Fitout — Jul 2025,22-00-00
+Bill,B-10116,Subcontractors,PRJ-003,786708,Carpentry package — Ashgrove Apartment Refurbishment — Jul 2025,06-10-00
+JournalEntry,PAY-20250714,Wages,PRJ-001,628159,Site payroll allocation — fortnight ending 2025-07-14,01-50-00
+JournalEntry,PAY-20250714,Wages,PRJ-002,1403450,Site payroll allocation — fortnight ending 2025-07-14,01-50-00
+JournalEntry,PAY-20250714,Wages,PRJ-003,586623,Site payroll allocation — fortnight ending 2025-07-14,01-50-00
+Bill,B-10112,Subcontractors,PRJ-002,953018,Electrical services — Meridian Medical Centre Fitout — Jul 2025,26-00-00
+Bill,B-10104,Subcontractors,PRJ-001,1265400,Electrical services — Westhaven Warehouse Extension — Jul 2025,26-00-00
+Bill,B-10102,Subcontractors,PRJ-001,1302400,Hydraulic services — Westhaven Warehouse Extension — Jul 2025,22-00-00
+Bill,B-10111,Subcontractors,PRJ-002,936727,Mechanical services — Meridian Medical Centre Fitout — Jul 2025,23-00-00
+Bill,B-10101,Materials,PRJ-001,1665000,Concrete supply — Westhaven Warehouse Extension — Jul 2025,03-30-00
+Bill,B-10105,Demolition,PRJ-002,574255,Demolition works — Meridian Medical Centre Fitout — Jul 2025,02-41-00
+Bill,B-10114,Materials,PRJ-003,1459385,Concrete supply — Ashgrove Apartment Refurbishment — Jul 2025,03-30-00
+Bill,B-10106,Materials,PRJ-002,1130182,Concrete supply — Meridian Medical Centre Fitout — Jul 2025,03-30-00
+Bill,B-10118,Subcontractors,PRJ-003,627692,Painting package — Ashgrove Apartment Refurbishment — Jul 2025,09-90-00
+Bill,B-10120,Subcontractors,PRJ-003,887138,Mechanical services — Ashgrove Apartment Refurbishment — Jul 2025,23-00-00
+Bill,B-10103,Subcontractors,PRJ-001,1172160,Mechanical services — Westhaven Warehouse Extension — Jul 2025,23-00-00
+Bill,B-10119,Subcontractors,PRJ-003,677908,Hydraulic services — Ashgrove Apartment Refurbishment — Jul 2025,22-00-00
+JournalEntry,PAY-20250728,Wages,PRJ-001,636473,Site payroll allocation — fortnight ending 2025-07-28,01-50-00
+JournalEntry,PAY-20250728,Wages,PRJ-002,1007760,Site payroll allocation — fortnight ending 2025-07-28,01-50-00
+JournalEntry,PAY-20250728,Wages,PRJ-003,769738,Site payroll allocation — fortnight ending 2025-07-28,01-50-00
+Bill,B-10100,Demolition,PRJ-001,1074480,Demolition works — Westhaven Warehouse Extension — Jul 2025,02-41-00
+Bill,B-10139,Subcontractors,PRJ-002,961164,Hydraulic services — Meridian Medical Centre Fitout — Aug 2025,22-00-00
+Bill,B-10148,Subcontractors,PRJ-003,895508,Mechanical services — Ashgrove Apartment Refurbishment — Aug 2025,23-00-00
+Bill,B-10129,Demolition,PRJ-001,772560,Demolition works — Westhaven Warehouse Extension — Aug 2025,02-41-00
+Bill,B-10141,Preliminaries,PRJ-003,1054523,Site Services — Ashgrove Apartment Refurbishment — Aug 2025,01-50-00
+Bill,B-10155,Subcontractors,PRJ-004,1502308,Partitions and linings — Murrin Bridge Repair — Aug 2025,09-21-00
+Bill,B-10154,Subcontractors,PRJ-004,869908,Carpentry package — Murrin Bridge Repair — Aug 2025,06-10-00
+Bill,B-10134,Subcontractors,PRJ-001,1056720,Painting package — Westhaven Warehouse Extension — Aug 2025,09-90-00
+Bill,B-10145,Subcontractors,PRJ-003,826462,Partitions and linings — Ashgrove Apartment Refurbishment — Aug 2025,09-21-00
+Bill,B-10149,Plant Hire,PRJ-003,856800,Earthworks and plant — Ashgrove Apartment Refurbishment — Aug 2025,31-23-00
+JournalEntry,PAY-20250814,Wages,PRJ-001,571006,Site payroll allocation — fortnight ending 2025-08-14,01-50-00
+JournalEntry,PAY-20250814,Wages,PRJ-002,956322,Site payroll allocation — fortnight ending 2025-08-14,01-50-00
+JournalEntry,PAY-20250814,Wages,PRJ-003,789667,Site payroll allocation — fortnight ending 2025-08-14,01-50-00
+JournalEntry,PAY-20250814,Wages,PRJ-004,538956,Site payroll allocation — fortnight ending 2025-08-14,01-50-00
+Bill,B-10130,Materials,PRJ-001,2530800,Concrete supply — Westhaven Warehouse Extension — Aug 2025,03-30-00
+Bill,B-10147,Subcontractors,PRJ-003,862031,Hydraulic services — Ashgrove Apartment Refurbishment — Aug 2025,22-00-00
+Bill,B-10128,Preliminaries,PRJ-001,1503680,Site Services — Westhaven Warehouse Extension — Aug 2025,01-50-00
+Bill,B-10136,Subcontractors,PRJ-001,1318680,Electrical services — Westhaven Warehouse Extension — Aug 2025,26-00-00
+Bill,B-10143,Materials,PRJ-003,1616308,Concrete supply — Ashgrove Apartment Refurbishment — Aug 2025,03-30-00
+Bill,B-10150,Preliminaries,PRJ-004,927138,Site Services — Murrin Bridge Repair — Aug 2025,01-50-00
+Bill,B-10133,Subcontractors,PRJ-001,1480000,Partitions and linings — Westhaven Warehouse Extension — Aug 2025,09-21-00
+Bill,B-10158,Plant Hire,PRJ-004,1570985,Earthworks and plant — Murrin Bridge Repair — Aug 2025,31-23-00
+Bill,B-10156,Subcontractors,PRJ-004,847015,Mechanical services — Murrin Bridge Repair — Aug 2025,23-00-00
+Bill,B-10142,Demolition,PRJ-003,464492,Demolition works — Ashgrove Apartment Refurbishment — Aug 2025,02-41-00
+Bill,B-10146,Subcontractors,PRJ-003,790892,Painting package — Ashgrove Apartment Refurbishment — Aug 2025,09-90-00
+Bill,B-10157,Subcontractors,PRJ-004,1184677,Electrical services — Murrin Bridge Repair — Aug 2025,26-00-00
+Bill,B-10131,Materials,PRJ-001,1443000,Structural steel — Westhaven Warehouse Extension — Aug 2025,05-12-00
+Bill,B-10151,Demolition,PRJ-004,961477,Demolition works — Murrin Bridge Repair — Aug 2025,02-41-00
+Bill,B-10153,Materials,PRJ-004,1581000,Structural steel — Murrin Bridge Repair — Aug 2025,05-12-00
+Bill,B-10137,Demolition,PRJ-002,543709,Demolition works — Meridian Medical Centre Fitout — Aug 2025,02-41-00
+Bill,B-10140,Plant Hire,PRJ-002,898036,Earthworks and plant — Meridian Medical Centre Fitout — Aug 2025,31-23-00
+Bill,B-10132,Subcontractors,PRJ-001,1207680,Carpentry package — Westhaven Warehouse Extension — Aug 2025,06-10-00
+Bill,B-10138,Subcontractors,PRJ-002,1373527,Partitions and linings — Meridian Medical Centre Fitout — Aug 2025,09-21-00
+Bill,B-10135,Subcontractors,PRJ-001,1326080,Hydraulic services — Westhaven Warehouse Extension — Aug 2025,22-00-00
+JournalEntry,PAY-20250828,Wages,PRJ-001,976648,Site payroll allocation — fortnight ending 2025-08-28,01-50-00
+JournalEntry,PAY-20250828,Wages,PRJ-002,1148553,Site payroll allocation — fortnight ending 2025-08-28,01-50-00
+JournalEntry,PAY-20250828,Wages,PRJ-003,709884,Site payroll allocation — fortnight ending 2025-08-28,01-50-00
+JournalEntry,PAY-20250828,Wages,PRJ-004,786782,Site payroll allocation — fortnight ending 2025-08-28,01-50-00
+Bill,B-10144,Materials,PRJ-003,1237600,Structural steel — Ashgrove Apartment Refurbishment — Aug 2025,05-12-00
+Bill,B-10152,Materials,PRJ-004,2060308,Concrete supply — Murrin Bridge Repair — Aug 2025,03-30-00
+Bill,B-10176,Materials,PRJ-002,1204509,Structural steel — Meridian Medical Centre Fitout — Sep 2025,05-12-00
+Bill,B-10180,Subcontractors,PRJ-002,1090473,Electrical services — Meridian Medical Centre Fitout — Sep 2025,26-00-00
+Bill,B-10165,Materials,PRJ-001,2353200,Concrete supply — Westhaven Warehouse Extension — Sep 2025,03-30-00
+Bill,B-10166,Materials,PRJ-001,2347280,Structural steel — Westhaven Warehouse Extension — Sep 2025,05-12-00
+Bill,B-10179,Subcontractors,PRJ-002,863418,Mechanical services — Meridian Medical Centre Fitout — Sep 2025,23-00-00
+Bill,B-10168,Subcontractors,PRJ-001,1687200,Partitions and linings — Westhaven Warehouse Extension — Sep 2025,09-21-00
+Bill,B-10188,Preliminaries,PRJ-004,1281969,Site Services — Murrin Bridge Repair — Sep 2025,01-50-00
+Bill,B-10178,Subcontractors,PRJ-002,769745,Painting package — Meridian Medical Centre Fitout — Sep 2025,09-90-00
+Bill,B-10192,Subcontractors,PRJ-004,892800,Carpentry package — Murrin Bridge Repair — Sep 2025,06-10-00
+Bill,B-10172,Plant Hire,PRJ-001,1012320,Earthworks and plant — Westhaven Warehouse Extension — Sep 2025,31-23-00
+Bill,B-10173,Preliminaries,PRJ-002,1330153,Site Services — Meridian Medical Centre Fitout — Sep 2025,01-50-00
+Bill,B-10175,Materials,PRJ-002,1512000,Concrete supply — Meridian Medical Centre Fitout — Sep 2025,03-30-00
+Bill,B-10170,Subcontractors,PRJ-001,1373440,Mechanical services — Westhaven Warehouse Extension — Sep 2025,23-00-00
+Bill,B-10171,Subcontractors,PRJ-001,1611720,Electrical services — Westhaven Warehouse Extension — Sep 2025,26-00-00
+Bill,B-10190,Materials,PRJ-004,1588154,Concrete supply — Murrin Bridge Repair — Sep 2025,03-30-00
+JournalEntry,PAY-20250914,Wages,PRJ-001,593778,Site payroll allocation — fortnight ending 2025-09-14,01-50-00
+JournalEntry,PAY-20250914,Wages,PRJ-002,967486,Site payroll allocation — fortnight ending 2025-09-14,01-50-00
+JournalEntry,PAY-20250914,Wages,PRJ-003,560524,Site payroll allocation — fortnight ending 2025-09-14,01-50-00
+JournalEntry,PAY-20250914,Wages,PRJ-004,847882,Site payroll allocation — fortnight ending 2025-09-14,01-50-00
+Bill,B-10167,Subcontractors,PRJ-001,1266880,Carpentry package — Westhaven Warehouse Extension — Sep 2025,06-10-00
+Bill,B-10189,Demolition,PRJ-004,841292,Demolition works — Murrin Bridge Repair — Sep 2025,02-41-00
+Bill,B-10182,Materials,PRJ-003,1239692,Concrete supply — Ashgrove Apartment Refurbishment — Sep 2025,03-30-00
+Bill,B-10186,Subcontractors,PRJ-003,853662,Hydraulic services — Ashgrove Apartment Refurbishment — Sep 2025,22-00-00
+Bill,B-10193,Subcontractors,PRJ-004,806954,Painting package — Murrin Bridge Repair — Sep 2025,09-90-00
+Bill,B-10164,Preliminaries,PRJ-001,1018240,Site Services — Westhaven Warehouse Extension — Sep 2025,01-50-00
+Bill,B-10187,Subcontractors,PRJ-003,769969,Mechanical services — Ashgrove Apartment Refurbishment — Sep 2025,23-00-00
+Bill,B-10194,Subcontractors,PRJ-004,1190400,Hydraulic services — Murrin Bridge Repair — Sep 2025,22-00-00
+Bill,B-10196,Subcontractors,PRJ-004,1545231,Electrical services — Murrin Bridge Repair — Sep 2025,26-00-00
+Bill,B-10174,Demolition,PRJ-002,445964,Demolition works — Meridian Medical Centre Fitout — Sep 2025,02-41-00
+Bill,B-10191,Materials,PRJ-004,2269200,Structural steel — Murrin Bridge Repair — Sep 2025,05-12-00
+Bill,B-10185,Subcontractors,PRJ-003,615138,Painting package — Ashgrove Apartment Refurbishment — Sep 2025,09-90-00
+Bill,B-10195,Subcontractors,PRJ-004,1396431,Mechanical services — Murrin Bridge Repair — Sep 2025,23-00-00
+Bill,B-10177,Subcontractors,PRJ-002,798255,Carpentry package — Meridian Medical Centre Fitout — Sep 2025,06-10-00
+Bill,B-10181,Demolition,PRJ-003,671631,Demolition works — Ashgrove Apartment Refurbishment — Sep 2025,02-41-00
+Bill,B-10184,Subcontractors,PRJ-003,669538,Carpentry package — Ashgrove Apartment Refurbishment — Sep 2025,06-10-00
+JournalEntry,PAY-20250928,Wages,PRJ-001,865755,Site payroll allocation — fortnight ending 2025-09-28,01-50-00
+JournalEntry,PAY-20250928,Wages,PRJ-002,754824,Site payroll allocation — fortnight ending 2025-09-28,01-50-00
+JournalEntry,PAY-20250928,Wages,PRJ-003,577273,Site payroll allocation — fortnight ending 2025-09-28,01-50-00
+JournalEntry,PAY-20250928,Wages,PRJ-004,1048288,Site payroll allocation — fortnight ending 2025-09-28,01-50-00
+Bill,B-10169,Subcontractors,PRJ-001,825840,Painting package — Westhaven Warehouse Extension — Sep 2025,09-90-00
+Bill,B-10183,Materials,PRJ-003,1332800,Structural steel — Ashgrove Apartment Refurbishment — Sep 2025,05-12-00
+Bill,B-10197,Plant Hire,PRJ-004,1545231,Earthworks and plant — Murrin Bridge Repair — Sep 2025,31-23-00
+Bill,B-10232,Subcontractors,PRJ-005,931500,Electrical services — Ironbank Industrial Slab — Oct 2025,26-00-00
+Bill,B-10222,Subcontractors,PRJ-003,820185,Mechanical services — Ashgrove Apartment Refurbishment — Oct 2025,23-00-00
+Bill,B-10224,Preliminaries,PRJ-004,1064492,Site Services — Murrin Bridge Repair — Oct 2025,01-50-00
+Bill,B-10228,Subcontractors,PRJ-004,1387846,Partitions and linings — Murrin Bridge Repair — Oct 2025,09-21-00
+Bill,B-10230,Preliminaries,PRJ-005,763600,Site Services — Ironbank Industrial Slab — Oct 2025,01-50-00
+Bill,B-10221,Subcontractors,PRJ-003,489600,Painting package — Ashgrove Apartment Refurbishment — Oct 2025,09-90-00
+Bill,B-10231,Materials,PRJ-005,1931540,Structural steel — Ironbank Industrial Slab — Oct 2025,05-12-00
+Bill,B-10220,Subcontractors,PRJ-003,1224000,Partitions and linings — Ashgrove Apartment Refurbishment — Oct 2025,09-21-00
+Bill,B-10223,Plant Hire,PRJ-003,1054523,Earthworks and plant — Ashgrove Apartment Refurbishment — Oct 2025,31-23-00
+Bill,B-10225,Materials,PRJ-004,1631077,Concrete supply — Murrin Bridge Repair — Oct 2025,03-30-00
+Bill,B-10206,Subcontractors,PRJ-001,790320,Painting package — Westhaven Warehouse Extension — Oct 2025,09-90-00
+Bill,B-10209,Plant Hire,PRJ-001,1638360,Earthworks and plant — Westhaven Warehouse Extension — Oct 2025,31-23-00
+Bill,B-10213,Subcontractors,PRJ-002,635345,Painting package — Meridian Medical Centre Fitout — Oct 2025,09-90-00
+JournalEntry,PAY-20251014,Wages,PRJ-001,767946,Site payroll allocation — fortnight ending 2025-10-14,01-50-00
+JournalEntry,PAY-20251014,Wages,PRJ-002,1209918,Site payroll allocation — fortnight ending 2025-10-14,01-50-00
+JournalEntry,PAY-20251014,Wages,PRJ-003,717160,Site payroll allocation — fortnight ending 2025-10-14,01-50-00
+JournalEntry,PAY-20251014,Wages,PRJ-004,765203,Site payroll allocation — fortnight ending 2025-10-14,01-50-00
+JournalEntry,PAY-20251014,Wages,PRJ-005,629857,Site payroll allocation — fortnight ending 2025-10-14,01-50-00
+Bill,B-10217,Preliminaries,PRJ-003,887138,Site Services — Ashgrove Apartment Refurbishment — Oct 2025,01-50-00
+Bill,B-10227,Subcontractors,PRJ-004,1018708,Carpentry package — Murrin Bridge Repair — Oct 2025,06-10-00
+Bill,B-10218,Materials,PRJ-003,1088000,Structural steel — Ashgrove Apartment Refurbishment — Oct 2025,05-12-00
+Bill,B-10204,Materials,PRJ-001,2308800,Structural steel — Westhaven Warehouse Extension — Oct 2025,05-12-00
+Bill,B-10207,Subcontractors,PRJ-001,1266880,Mechanical services — Westhaven Warehouse Extension — Oct 2025,23-00-00
+Bill,B-10212,Subcontractors,PRJ-002,953018,Carpentry package — Meridian Medical Centre Fitout — Oct 2025,06-10-00
+Bill,B-10214,Subcontractors,PRJ-002,904145,Hydraulic services — Meridian Medical Centre Fitout — Oct 2025,22-00-00
+Bill,B-10216,Plant Hire,PRJ-002,971345,Earthworks and plant — Meridian Medical Centre Fitout — Oct 2025,31-23-00
+Bill,B-10229,Subcontractors,PRJ-004,1622492,Electrical services — Murrin Bridge Repair — Oct 2025,26-00-00
+Bill,B-10233,Plant Hire,PRJ-005,1314450,Earthworks and plant — Ironbank Industrial Slab — Oct 2025,31-23-00
+Bill,B-10203,Materials,PRJ-001,2797200,Concrete supply — Westhaven Warehouse Extension — Oct 2025,03-30-00
+Bill,B-10208,Subcontractors,PRJ-001,1425240,Electrical services — Westhaven Warehouse Extension — Oct 2025,26-00-00
+JournalEntry,PAY-20251028,Wages,PRJ-001,909220,Site payroll allocation — fortnight ending 2025-10-28,01-50-00
+JournalEntry,PAY-20251028,Wages,PRJ-002,927389,Site payroll allocation — fortnight ending 2025-10-28,01-50-00
+JournalEntry,PAY-20251028,Wages,PRJ-003,762941,Site payroll allocation — fortnight ending 2025-10-28,01-50-00
+JournalEntry,PAY-20251028,Wages,PRJ-004,861357,Site payroll allocation — fortnight ending 2025-10-28,01-50-00
+JournalEntry,PAY-20251028,Wages,PRJ-005,781087,Site payroll allocation — fortnight ending 2025-10-28,01-50-00
+Bill,B-10205,Subcontractors,PRJ-001,947200,Carpentry package — Westhaven Warehouse Extension — Oct 2025,06-10-00
+Bill,B-10215,Subcontractors,PRJ-002,1062982,Electrical services — Meridian Medical Centre Fitout — Oct 2025,26-00-00
+Bill,B-10219,Subcontractors,PRJ-003,795077,Carpentry package — Ashgrove Apartment Refurbishment — Oct 2025,06-10-00
+Bill,B-10210,Preliminaries,PRJ-002,1318586,Site Services — Meridian Medical Centre Fitout — Oct 2025,01-50-00
+Bill,B-10211,Materials,PRJ-002,1848000,Concrete supply — Meridian Medical Centre Fitout — Oct 2025,03-30-00
+Bill,B-10226,Materials,PRJ-004,2250600,Structural steel — Murrin Bridge Repair — Oct 2025,05-12-00
+Bill,B-10264,Subcontractors,PRJ-004,1259077,Partitions and linings — Murrin Bridge Repair — Nov 2025,09-21-00
+Bill,B-10248,Demolition,PRJ-002,769745,Demolition works — Meridian Medical Centre Fitout — Nov 2025,02-41-00
+Bill,B-10243,Subcontractors,PRJ-001,932400,Painting package — Westhaven Warehouse Extension — Nov 2025,09-90-00
+Bill,B-10266,Subcontractors,PRJ-004,1259077,Mechanical services — Murrin Bridge Repair — Nov 2025,23-00-00
+Bill,B-10273,Subcontractors,PRJ-005,984400,Hydraulic services — Ironbank Industrial Slab — Nov 2025,22-00-00
+Bill,B-10254,Preliminaries,PRJ-003,769969,Site Services — Ashgrove Apartment Refurbishment — Nov 2025,01-50-00
+Bill,B-10275,Subcontractors,PRJ-005,983250,Electrical services — Ironbank Industrial Slab — Nov 2025,26-00-00
+Bill,B-10257,Subcontractors,PRJ-003,633969,Painting package — Ashgrove Apartment Refurbishment — Nov 2025,09-90-00
+Bill,B-10270,Materials,PRJ-005,1736040,Concrete supply — Ironbank Industrial Slab — Nov 2025,03-30-00
+Bill,B-10261,Materials,PRJ-004,2038846,Concrete supply — Murrin Bridge Repair — Nov 2025,03-30-00
+Bill,B-10258,Subcontractors,PRJ-003,736492,Mechanical services — Ashgrove Apartment Refurbishment — Nov 2025,23-00-00
+Bill,B-10274,Subcontractors,PRJ-005,1067200,Mechanical services — Ironbank Industrial Slab — Nov 2025,23-00-00
+Bill,B-10262,Materials,PRJ-004,2250600,Structural steel — Murrin Bridge Repair — Nov 2025,05-12-00
+Bill,B-10244,Subcontractors,PRJ-001,935360,Hydraulic services — Westhaven Warehouse Extension — Nov 2025,22-00-00
+Bill,B-10267,Subcontractors,PRJ-004,1184677,Electrical services — Murrin Bridge Repair — Nov 2025,26-00-00
+Bill,B-10268,Plant Hire,PRJ-004,1236185,Earthworks and plant — Murrin Bridge Repair — Nov 2025,31-23-00
+JournalEntry,PAY-20251114,Wages,PRJ-001,804294,Site payroll allocation — fortnight ending 2025-11-14,01-50-00
+JournalEntry,PAY-20251114,Wages,PRJ-002,802910,Site payroll allocation — fortnight ending 2025-11-14,01-50-00
+JournalEntry,PAY-20251114,Wages,PRJ-003,943605,Site payroll allocation — fortnight ending 2025-11-14,01-50-00
+JournalEntry,PAY-20251114,Wages,PRJ-004,593551,Site payroll allocation — fortnight ending 2025-11-14,01-50-00
+JournalEntry,PAY-20251114,Wages,PRJ-005,856403,Site payroll allocation — fortnight ending 2025-11-14,01-50-00
+Bill,B-10242,Subcontractors,PRJ-001,1480000,Partitions and linings — Westhaven Warehouse Extension — Nov 2025,09-21-00
+Bill,B-10245,Subcontractors,PRJ-001,1337920,Mechanical services — Westhaven Warehouse Extension — Nov 2025,23-00-00
+Bill,B-10253,Subcontractors,PRJ-002,852218,Electrical services — Meridian Medical Centre Fitout — Nov 2025,26-00-00
+Bill,B-10255,Subcontractors,PRJ-003,928985,Carpentry package — Ashgrove Apartment Refurbishment — Nov 2025,06-10-00
+Bill,B-10251,Subcontractors,PRJ-002,855273,Hydraulic services — Meridian Medical Centre Fitout — Nov 2025,22-00-00
+Bill,B-10265,Subcontractors,PRJ-004,918554,Painting package — Murrin Bridge Repair — Nov 2025,09-90-00
+Bill,B-10252,Subcontractors,PRJ-002,790109,Mechanical services — Meridian Medical Centre Fitout — Nov 2025,23-00-00
+Bill,B-10263,Subcontractors,PRJ-004,1373538,Carpentry package — Murrin Bridge Repair — Nov 2025,06-10-00
+Bill,B-10260,Demolition,PRJ-004,686769,Demolition works — Murrin Bridge Repair — Nov 2025,02-41-00
+Bill,B-10239,Preliminaries,PRJ-001,1195840,Site Services — Westhaven Warehouse Extension — Nov 2025,01-50-00
+Bill,B-10247,Preliminaries,PRJ-002,1457385,Site Services — Meridian Medical Centre Fitout — Nov 2025,01-50-00
+Bill,B-10240,Demolition,PRJ-001,1003440,Demolition works — Westhaven Warehouse Extension — Nov 2025,02-41-00
+Bill,B-10241,Subcontractors,PRJ-001,1444480,Carpentry package — Westhaven Warehouse Extension — Nov 2025,06-10-00
+Bill,B-10256,Subcontractors,PRJ-003,1035692,Partitions and linings — Ashgrove Apartment Refurbishment — Nov 2025,09-21-00
+Bill,B-10271,Subcontractors,PRJ-005,1048800,Carpentry package — Ironbank Industrial Slab — Nov 2025,06-10-00
+Bill,B-10272,Subcontractors,PRJ-005,862500,Painting package — Ironbank Industrial Slab — Nov 2025,09-90-00
+Bill,B-10269,Preliminaries,PRJ-005,754400,Site Services — Ironbank Industrial Slab — Nov 2025,01-50-00
+Bill,B-10259,Subcontractors,PRJ-003,960369,Electrical services — Ashgrove Apartment Refurbishment — Nov 2025,26-00-00
+Bill,B-10246,Subcontractors,PRJ-001,1172160,Electrical services — Westhaven Warehouse Extension — Nov 2025,26-00-00
+Bill,B-10250,Subcontractors,PRJ-002,464291,Painting package — Meridian Medical Centre Fitout — Nov 2025,09-90-00
+Bill,B-10249,Materials,PRJ-002,1389818,Structural steel — Meridian Medical Centre Fitout — Nov 2025,05-12-00
+JournalEntry,PAY-20251128,Wages,PRJ-001,910624,Site payroll allocation — fortnight ending 2025-11-28,01-50-00
+JournalEntry,PAY-20251128,Wages,PRJ-002,862094,Site payroll allocation — fortnight ending 2025-11-28,01-50-00
+JournalEntry,PAY-20251128,Wages,PRJ-003,946039,Site payroll allocation — fortnight ending 2025-11-28,01-50-00
+JournalEntry,PAY-20251128,Wages,PRJ-004,788687,Site payroll allocation — fortnight ending 2025-11-28,01-50-00
+JournalEntry,PAY-20251128,Wages,PRJ-005,668654,Site payroll allocation — fortnight ending 2025-11-28,01-50-00
+Bill,B-10281,Preliminaries,PRJ-002,1295453,Site Services — Meridian Medical Centre Fitout — Dec 2025,01-50-00
+Bill,B-10285,Subcontractors,PRJ-002,676073,Carpentry package — Meridian Medical Centre Fitout — Dec 2025,06-10-00
+Bill,B-10282,Demolition,PRJ-002,537600,Demolition works — Meridian Medical Centre Fitout — Dec 2025,02-41-00
+Bill,B-10311,Subcontractors,PRJ-005,1113200,Mechanical services — Ironbank Industrial Slab — Dec 2025,23-00-00
+Bill,B-10309,Subcontractors,PRJ-005,862500,Partitions and linings — Ironbank Industrial Slab — Dec 2025,09-21-00
+Bill,B-10295,Subcontractors,PRJ-003,728123,Painting package — Ashgrove Apartment Refurbishment — Dec 2025,09-90-00
+Bill,B-10300,Demolition,PRJ-004,789785,Demolition works — Murrin Bridge Repair — Dec 2025,02-41-00
+Bill,B-10304,Subcontractors,PRJ-004,1213292,Mechanical services — Murrin Bridge Repair — Dec 2025,23-00-00
+Bill,B-10310,Subcontractors,PRJ-005,876300,Painting package — Ironbank Industrial Slab — Dec 2025,09-90-00
+JournalEntry,PAY-20251214,Wages,PRJ-002,1011115,Site payroll allocation — fortnight ending 2025-12-14,01-50-00
+JournalEntry,PAY-20251214,Wages,PRJ-003,685258,Site payroll allocation — fortnight ending 2025-12-14,01-50-00
+JournalEntry,PAY-20251214,Wages,PRJ-004,740364,Site payroll allocation — fortnight ending 2025-12-14,01-50-00
+JournalEntry,PAY-20251214,Wages,PRJ-005,1025740,Site payroll allocation — fortnight ending 2025-12-14,01-50-00
+Bill,B-10296,Subcontractors,PRJ-003,1037785,Hydraulic services — Ashgrove Apartment Refurbishment — Dec 2025,22-00-00
+Bill,B-10299,Preliminaries,PRJ-004,1018708,Site Services — Murrin Bridge Repair — Dec 2025,01-50-00
+Bill,B-10287,Subcontractors,PRJ-002,871564,Hydraulic services — Meridian Medical Centre Fitout — Dec 2025,22-00-00
+Bill,B-10286,Subcontractors,PRJ-002,476509,Painting package — Meridian Medical Centre Fitout — Dec 2025,09-90-00
+Bill,B-10305,Subcontractors,PRJ-004,1506600,Electrical services — Murrin Bridge Repair — Dec 2025,26-00-00
+Bill,B-10293,Subcontractors,PRJ-003,795077,Carpentry package — Ashgrove Apartment Refurbishment — Dec 2025,06-10-00
+Bill,B-10284,Materials,PRJ-002,992727,Structural steel — Meridian Medical Centre Fitout — Dec 2025,05-12-00
+Bill,B-10292,Materials,PRJ-003,1632000,Structural steel — Ashgrove Apartment Refurbishment — Dec 2025,05-12-00
+Bill,B-10283,Materials,PRJ-002,1252364,Concrete supply — Meridian Medical Centre Fitout — Dec 2025,03-30-00
+Bill,B-10294,Subcontractors,PRJ-003,931077,Partitions and linings — Ashgrove Apartment Refurbishment — Dec 2025,09-21-00
+Bill,B-10297,Subcontractors,PRJ-003,711385,Mechanical services — Ashgrove Apartment Refurbishment — Dec 2025,23-00-00
+Bill,B-10303,Subcontractors,PRJ-004,950031,Carpentry package — Murrin Bridge Repair — Dec 2025,06-10-00
+Bill,B-10291,Demolition,PRJ-003,803446,Demolition works — Ashgrove Apartment Refurbishment — Dec 2025,02-41-00
+Bill,B-10313,Plant Hire,PRJ-005,776250,Earthworks and plant — Ironbank Industrial Slab — Dec 2025,31-23-00
+Bill,B-10302,Materials,PRJ-004,2269200,Structural steel — Murrin Bridge Repair — Dec 2025,05-12-00
+Bill,B-10306,Demolition,PRJ-005,634800,Demolition works — Ironbank Industrial Slab — Dec 2025,02-41-00
+Bill,B-10289,Plant Hire,PRJ-002,696436,Earthworks and plant — Meridian Medical Centre Fitout — Dec 2025,31-23-00
+Bill,B-10288,Subcontractors,PRJ-002,879709,Electrical services — Meridian Medical Centre Fitout — Dec 2025,26-00-00
+Bill,B-10298,Plant Hire,PRJ-003,866215,Earthworks and plant — Ashgrove Apartment Refurbishment — Dec 2025,31-23-00
+Bill,B-10312,Subcontractors,PRJ-005,910800,Electrical services — Ironbank Industrial Slab — Dec 2025,26-00-00
+Bill,B-10290,Preliminaries,PRJ-003,895508,Site Services — Ashgrove Apartment Refurbishment — Dec 2025,01-50-00
+Bill,B-10307,Materials,PRJ-005,2399176,Structural steel — Ironbank Industrial Slab — Dec 2025,05-12-00
+Bill,B-10308,Subcontractors,PRJ-005,763600,Carpentry package — Ironbank Industrial Slab — Dec 2025,06-10-00
+JournalEntry,PAY-20251228,Wages,PRJ-002,914736,Site payroll allocation — fortnight ending 2025-12-28,01-50-00
+JournalEntry,PAY-20251228,Wages,PRJ-003,837973,Site payroll allocation — fortnight ending 2025-12-28,01-50-00
+JournalEntry,PAY-20251228,Wages,PRJ-004,649580,Site payroll allocation — fortnight ending 2025-12-28,01-50-00
+JournalEntry,PAY-20251228,Wages,PRJ-005,664569,Site payroll allocation — fortnight ending 2025-12-28,01-50-00
+Bill,B-10301,Materials,PRJ-004,1910077,Concrete supply — Murrin Bridge Repair — Dec 2025,03-30-00
+Bill,B-10324,Subcontractors,PRJ-002,700509,Hydraulic services — Meridian Medical Centre Fitout — Jan 2026,22-00-00
+Bill,B-10340,Subcontractors,PRJ-004,927138,Mechanical services — Murrin Bridge Repair — Jan 2026,23-00-00
+Bill,B-10341,Plant Hire,PRJ-004,1377831,Earthworks and plant — Murrin Bridge Repair — Jan 2026,31-23-00
+Bill,B-10343,Materials,PRJ-005,1900260,Concrete supply — Ironbank Industrial Slab — Jan 2026,03-30-00
+Bill,B-10337,Subcontractors,PRJ-004,1058769,Partitions and linings — Murrin Bridge Repair — Jan 2026,09-21-00
+Bill,B-10342,Preliminaries,PRJ-005,763600,Site Services — Ironbank Industrial Slab — Jan 2026,01-50-00
+Bill,B-10345,Subcontractors,PRJ-005,772800,Carpentry package — Ironbank Industrial Slab — Jan 2026,06-10-00
+Bill,B-10352,Subcontractors,PRJ-006,1514333,Partitions and linings — Sandstone School Upgrade — Jan 2026,09-21-00
+Bill,B-10348,Subcontractors,PRJ-005,1045350,Electrical services — Ironbank Industrial Slab — Jan 2026,26-00-00
+Bill,B-10355,Plant Hire,PRJ-006,1386000,Earthworks and plant — Sandstone School Upgrade — Jan 2026,31-23-00
+Bill,B-10323,Subcontractors,PRJ-002,775855,Painting package — Meridian Medical Centre Fitout — Jan 2026,09-90-00
+Bill,B-10332,Preliminaries,PRJ-004,1270523,Site Services — Murrin Bridge Repair — Jan 2026,01-50-00
+Bill,B-10338,Subcontractors,PRJ-004,789785,Painting package — Murrin Bridge Repair — Jan 2026,09-90-00
+Bill,B-10330,Subcontractors,PRJ-003,470769,Painting package — Ashgrove Apartment Refurbishment — Jan 2026,09-90-00
+JournalEntry,PAY-20260114,Wages,PRJ-002,1366887,Site payroll allocation — fortnight ending 2026-01-14,01-50-00
+JournalEntry,PAY-20260114,Wages,PRJ-003,751128,Site payroll allocation — fortnight ending 2026-01-14,01-50-00
+JournalEntry,PAY-20260114,Wages,PRJ-004,655997,Site payroll allocation — fortnight ending 2026-01-14,01-50-00
+JournalEntry,PAY-20260114,Wages,PRJ-005,962919,Site payroll allocation — fortnight ending 2026-01-14,01-50-00
+JournalEntry,PAY-20260114,Wages,PRJ-006,690354,Site payroll allocation — fortnight ending 2026-01-14,01-50-00
+Bill,B-10322,Subcontractors,PRJ-002,1402444,Partitions and linings — Meridian Medical Centre Fitout — Jan 2026,09-21-00
+Bill,B-10327,Demolition,PRJ-003,552369,Demolition works — Ashgrove Apartment Refurbishment — Jan 2026,02-41-00
+Bill,B-10329,Subcontractors,PRJ-003,920615,Carpentry package — Ashgrove Apartment Refurbishment — Jan 2026,06-10-00
+Bill,B-10353,Subcontractors,PRJ-006,831600,Hydraulic services — Sandstone School Upgrade — Jan 2026,22-00-00
+Bill,B-10326,Plant Hire,PRJ-002,989673,Earthworks and plant — Meridian Medical Centre Fitout — Jan 2026,31-23-00
+Bill,B-10350,Preliminaries,PRJ-006,1149867,Site Services — Sandstone School Upgrade — Jan 2026,01-50-00
+Bill,B-10351,Subcontractors,PRJ-006,1201200,Carpentry package — Sandstone School Upgrade — Jan 2026,06-10-00
+Bill,B-10346,Subcontractors,PRJ-005,1219000,Partitions and linings — Ironbank Industrial Slab — Jan 2026,09-21-00
+Bill,B-10319,Preliminaries,PRJ-002,1214487,Site Services — Meridian Medical Centre Fitout — Jan 2026,01-50-00
+Bill,B-10344,Materials,PRJ-005,1565564,Structural steel — Ironbank Industrial Slab — Jan 2026,05-12-00
+Bill,B-10328,Materials,PRJ-003,1412308,Concrete supply — Ashgrove Apartment Refurbishment — Jan 2026,03-30-00
+Bill,B-10321,Subcontractors,PRJ-002,749382,Carpentry package — Meridian Medical Centre Fitout — Jan 2026,06-10-00
+Bill,B-10334,Materials,PRJ-004,2446615,Concrete supply — Murrin Bridge Repair — Jan 2026,03-30-00
+Bill,B-10325,Subcontractors,PRJ-002,741236,Mechanical services — Meridian Medical Centre Fitout — Jan 2026,23-00-00
+Bill,B-10331,Subcontractors,PRJ-003,803446,Mechanical services — Ashgrove Apartment Refurbishment — Jan 2026,23-00-00
+Bill,B-10347,Subcontractors,PRJ-005,1094800,Hydraulic services — Ironbank Industrial Slab — Jan 2026,22-00-00
+Bill,B-10320,Materials,PRJ-002,1310400,Structural steel — Meridian Medical Centre Fitout — Jan 2026,05-12-00
+Bill,B-10339,Subcontractors,PRJ-004,984369,Hydraulic services — Murrin Bridge Repair — Jan 2026,22-00-00
+Bill,B-10336,Subcontractors,PRJ-004,927138,Carpentry package — Murrin Bridge Repair — Jan 2026,06-10-00
+JournalEntry,PAY-20260128,Wages,PRJ-002,774729,Site payroll allocation — fortnight ending 2026-01-28,01-50-00
+JournalEntry,PAY-20260128,Wages,PRJ-003,935285,Site payroll allocation — fortnight ending 2026-01-28,01-50-00
+JournalEntry,PAY-20260128,Wages,PRJ-004,684718,Site payroll allocation — fortnight ending 2026-01-28,01-50-00
+JournalEntry,PAY-20260128,Wages,PRJ-005,1006837,Site payroll allocation — fortnight ending 2026-01-28,01-50-00
+JournalEntry,PAY-20260128,Wages,PRJ-006,765705,Site payroll allocation — fortnight ending 2026-01-28,01-50-00
+Bill,B-10335,Materials,PRJ-004,2064600,Structural steel — Murrin Bridge Repair — Jan 2026,05-12-00
+Bill,B-10333,Demolition,PRJ-004,1012985,Demolition works — Murrin Bridge Repair — Jan 2026,02-41-00
+Bill,B-10349,Plant Hire,PRJ-005,1304100,Earthworks and plant — Ironbank Industrial Slab — Jan 2026,31-23-00
+Bill,B-10354,Subcontractors,PRJ-006,1062600,Electrical services — Sandstone School Upgrade — Jan 2026,26-00-00
+Bill,B-10383,Plant Hire,PRJ-004,1274815,Earthworks and plant — Murrin Bridge Repair — Feb 2026,31-23-00
+Bill,B-10395,Demolition,PRJ-006,654500,Demolition works — Sandstone School Upgrade — Feb 2026,02-41-00
+Bill,B-10382,Subcontractors,PRJ-004,1171800,Electrical services — Murrin Bridge Repair — Feb 2026,26-00-00
+Bill,B-10361,Preliminaries,PRJ-002,832791,Site Services — Meridian Medical Centre Fitout — Feb 2026,01-50-00
+Bill,B-10391,Subcontractors,PRJ-005,1168400,Mechanical services — Ironbank Industrial Slab — Feb 2026,23-00-00
+Bill,B-10396,Materials,PRJ-006,2079000,Concrete supply — Sandstone School Upgrade — Feb 2026,03-30-00
+Bill,B-10399,Subcontractors,PRJ-006,600600,Painting package — Sandstone School Upgrade — Feb 2026,09-90-00
+Bill,B-10392,Subcontractors,PRJ-005,1304100,Electrical services — Ironbank Industrial Slab — Feb 2026,26-00-00
+Bill,B-10400,Subcontractors,PRJ-006,1078000,Hydraulic services — Sandstone School Upgrade — Feb 2026,22-00-00
+Bill,B-10374,Subcontractors,PRJ-003,1029415,Mechanical services — Ashgrove Apartment Refurbishment — Feb 2026,23-00-00
+Bill,B-10388,Subcontractors,PRJ-005,726800,Carpentry package — Ironbank Industrial Slab — Feb 2026,06-10-00
+Bill,B-10390,Subcontractors,PRJ-005,966000,Hydraulic services — Ironbank Industrial Slab — Feb 2026,22-00-00
+Bill,B-10363,Materials,PRJ-002,1283927,Structural steel — Meridian Medical Centre Fitout — Feb 2026,05-12-00
+Bill,B-10381,Subcontractors,PRJ-004,1098831,Mechanical services — Murrin Bridge Repair — Feb 2026,23-00-00
+Bill,B-10384,Preliminaries,PRJ-005,947600,Site Services — Ironbank Industrial Slab — Feb 2026,01-50-00
+Bill,B-10379,Subcontractors,PRJ-004,1344923,Partitions and linings — Murrin Bridge Repair — Feb 2026,09-21-00
+Bill,B-10385,Demolition,PRJ-005,703800,Demolition works — Ironbank Industrial Slab — Feb 2026,02-41-00
+Bill,B-10366,Subcontractors,PRJ-002,700509,Hydraulic services — Meridian Medical Centre Fitout — Feb 2026,22-00-00
+Bill,B-10368,Subcontractors,PRJ-002,1127127,Electrical services — Meridian Medical Centre Fitout — Feb 2026,26-00-00
+Bill,B-10371,Materials,PRJ-003,1161231,Concrete supply — Ashgrove Apartment Refurbishment — Feb 2026,03-30-00
+JournalEntry,PAY-20260214,Wages,PRJ-002,972116,Site payroll allocation — fortnight ending 2026-02-14,01-50-00
+JournalEntry,PAY-20260214,Wages,PRJ-003,1008521,Site payroll allocation — fortnight ending 2026-02-14,01-50-00
+JournalEntry,PAY-20260214,Wages,PRJ-004,868038,Site payroll allocation — fortnight ending 2026-02-14,01-50-00
+JournalEntry,PAY-20260214,Wages,PRJ-005,560680,Site payroll allocation — fortnight ending 2026-02-14,01-50-00
+JournalEntry,PAY-20260214,Wages,PRJ-006,976700,Site payroll allocation — fortnight ending 2026-02-14,01-50-00
+Bill,B-10372,Subcontractors,PRJ-003,962462,Carpentry package — Ashgrove Apartment Refurbishment — Feb 2026,06-10-00
+Bill,B-10373,Subcontractors,PRJ-003,1265846,Partitions and linings — Ashgrove Apartment Refurbishment — Feb 2026,09-21-00
+Bill,B-10398,Subcontractors,PRJ-006,954800,Carpentry package — Sandstone School Upgrade — Feb 2026,06-10-00
+Bill,B-10394,Preliminaries,PRJ-006,821333,Site Services — Sandstone School Upgrade — Feb 2026,01-50-00
+Bill,B-10375,Subcontractors,PRJ-003,819138,Electrical services — Ashgrove Apartment Refurbishment — Feb 2026,26-00-00
+Bill,B-10364,Subcontractors,PRJ-002,757527,Carpentry package — Meridian Medical Centre Fitout — Feb 2026,06-10-00
+Bill,B-10376,Plant Hire,PRJ-003,743815,Earthworks and plant — Ashgrove Apartment Refurbishment — Feb 2026,31-23-00
+Bill,B-10387,Materials,PRJ-005,1545232,Structural steel — Ironbank Industrial Slab — Feb 2026,05-12-00
+Bill,B-10378,Subcontractors,PRJ-004,1270523,Carpentry package — Murrin Bridge Repair — Feb 2026,06-10-00
+Bill,B-10389,Subcontractors,PRJ-005,786600,Painting package — Ironbank Industrial Slab — Feb 2026,09-90-00
+Bill,B-10393,Plant Hire,PRJ-005,1117800,Earthworks and plant — Ironbank Industrial Slab — Feb 2026,31-23-00
+Bill,B-10397,Materials,PRJ-006,2002000,Structural steel — Sandstone School Upgrade — Feb 2026,05-12-00
+Bill,B-10362,Materials,PRJ-002,1252364,Concrete supply — Meridian Medical Centre Fitout — Feb 2026,03-30-00
+Bill,B-10369,Preliminaries,PRJ-003,694646,Site Services — Ashgrove Apartment Refurbishment — Feb 2026,01-50-00
+Bill,B-10386,Materials,PRJ-005,2299080,Concrete supply — Ironbank Industrial Slab — Feb 2026,03-30-00
+Bill,B-10365,Subcontractors,PRJ-002,537600,Painting package — Meridian Medical Centre Fitout — Feb 2026,09-90-00
+Bill,B-10380,Subcontractors,PRJ-004,1178954,Hydraulic services — Murrin Bridge Repair — Feb 2026,22-00-00
+Bill,B-10370,Demolition,PRJ-003,552369,Demolition works — Ashgrove Apartment Refurbishment — Feb 2026,02-41-00
+Bill,B-10377,Preliminaries,PRJ-004,904246,Site Services — Murrin Bridge Repair — Feb 2026,01-50-00
+Bill,B-10401,Subcontractors,PRJ-006,924000,Mechanical services — Sandstone School Upgrade — Feb 2026,23-00-00
+Bill,B-10367,Subcontractors,PRJ-002,602764,Mechanical services — Meridian Medical Centre Fitout — Feb 2026,23-00-00
+JournalEntry,PAY-20260228,Wages,PRJ-002,1239756,Site payroll allocation — fortnight ending 2026-02-28,01-50-00
+JournalEntry,PAY-20260228,Wages,PRJ-003,699174,Site payroll allocation — fortnight ending 2026-02-28,01-50-00
+JournalEntry,PAY-20260228,Wages,PRJ-004,938204,Site payroll allocation — fortnight ending 2026-02-28,01-50-00
+JournalEntry,PAY-20260228,Wages,PRJ-005,872645,Site payroll allocation — fortnight ending 2026-02-28,01-50-00
+JournalEntry,PAY-20260228,Wages,PRJ-006,592257,Site payroll allocation — fortnight ending 2026-02-28,01-50-00
+Bill,B-10407,Demolition,PRJ-003,527262,Demolition works — Ashgrove Apartment Refurbishment — Mar 2026,02-41-00
+Bill,B-10419,Subcontractors,PRJ-004,858462,Painting package — Murrin Bridge Repair — Mar 2026,09-90-00
+Bill,B-10435,Subcontractors,PRJ-006,1262800,Mechanical services — Sandstone School Upgrade — Mar 2026,23-00-00
+Bill,B-10420,Subcontractors,PRJ-004,1184677,Electrical services — Murrin Bridge Repair — Mar 2026,26-00-00
+Bill,B-10421,Plant Hire,PRJ-004,952892,Earthworks and plant — Murrin Bridge Repair — Mar 2026,31-23-00
+Bill,B-10412,Subcontractors,PRJ-003,800308,Electrical services — Ashgrove Apartment Refurbishment — Mar 2026,26-00-00
+Bill,B-10411,Subcontractors,PRJ-003,862031,Mechanical services — Ashgrove Apartment Refurbishment — Mar 2026,23-00-00
+Bill,B-10423,Demolition,PRJ-005,738300,Demolition works — Ironbank Industrial Slab — Mar 2026,02-41-00
+Bill,B-10428,Plant Hire,PRJ-005,838350,Earthworks and plant — Ironbank Industrial Slab — Mar 2026,31-23-00
+Bill,B-10415,Materials,PRJ-004,2360769,Concrete supply — Murrin Bridge Repair — Mar 2026,03-30-00
+Bill,B-10431,Materials,PRJ-006,1651650,Structural steel — Sandstone School Upgrade — Mar 2026,05-12-00
+Bill,B-10426,Subcontractors,PRJ-005,1207500,Partitions and linings — Ironbank Industrial Slab — Mar 2026,09-21-00
+JournalEntry,PAY-20260314,Wages,PRJ-003,752701,Site payroll allocation — fortnight ending 2026-03-14,01-50-00
+JournalEntry,PAY-20260314,Wages,PRJ-004,693784,Site payroll allocation — fortnight ending 2026-03-14,01-50-00
+JournalEntry,PAY-20260314,Wages,PRJ-005,584863,Site payroll allocation — fortnight ending 2026-03-14,01-50-00
+JournalEntry,PAY-20260314,Wages,PRJ-006,961457,Site payroll allocation — fortnight ending 2026-03-14,01-50-00
+Bill,B-10424,Materials,PRJ-005,2697900,Concrete supply — Ironbank Industrial Slab — Mar 2026,03-30-00
+Bill,B-10408,Subcontractors,PRJ-003,728123,Carpentry package — Ashgrove Apartment Refurbishment — Mar 2026,06-10-00
+Bill,B-10425,Subcontractors,PRJ-005,920000,Carpentry package — Ironbank Industrial Slab — Mar 2026,06-10-00
+Bill,B-10427,Subcontractors,PRJ-005,841800,Painting package — Ironbank Industrial Slab — Mar 2026,09-90-00
+Bill,B-10429,Preliminaries,PRJ-006,1262800,Site Services — Sandstone School Upgrade — Mar 2026,01-50-00
+CreditNote,CN-9001,Materials,PRJ-005,-485000,Credit — duplicate concrete delivery,03-30-00
+Bill,B-10416,Materials,PRJ-004,1878600,Structural steel — Murrin Bridge Repair — Mar 2026,05-12-00
+Bill,B-10437,Plant Hire,PRJ-006,1282050,Earthworks and plant — Sandstone School Upgrade — Mar 2026,31-23-00
+Bill,B-10409,Subcontractors,PRJ-003,483323,Painting package — Ashgrove Apartment Refurbishment — Mar 2026,09-90-00
+Bill,B-10432,Subcontractors,PRJ-006,1067733,Carpentry package — Sandstone School Upgrade — Mar 2026,06-10-00
+Bill,B-10433,Subcontractors,PRJ-006,1424500,Partitions and linings — Sandstone School Upgrade — Mar 2026,09-21-00
+Bill,B-10436,Subcontractors,PRJ-006,1455300,Electrical services — Sandstone School Upgrade — Mar 2026,26-00-00
+Bill,B-10417,Subcontractors,PRJ-004,1064492,Carpentry package — Murrin Bridge Repair — Mar 2026,06-10-00
+Bill,B-10422,Preliminaries,PRJ-005,717600,Site Services — Ironbank Industrial Slab — Mar 2026,01-50-00
+Bill,B-10414,Demolition,PRJ-004,635262,Demolition works — Murrin Bridge Repair — Mar 2026,02-41-00
+Bill,B-10418,Subcontractors,PRJ-004,1044462,Partitions and linings — Murrin Bridge Repair — Mar 2026,09-21-00
+JournalEntry,PAY-20260328,Wages,PRJ-003,906184,Site payroll allocation — fortnight ending 2026-03-28,01-50-00
+JournalEntry,PAY-20260328,Wages,PRJ-004,852687,Site payroll allocation — fortnight ending 2026-03-28,01-50-00
+JournalEntry,PAY-20260328,Wages,PRJ-005,965959,Site payroll allocation — fortnight ending 2026-03-28,01-50-00
+JournalEntry,PAY-20260328,Wages,PRJ-006,884680,Site payroll allocation — fortnight ending 2026-03-28,01-50-00
+Bill,B-10410,Subcontractors,PRJ-003,610954,Hydraulic services — Ashgrove Apartment Refurbishment — Mar 2026,22-00-00
+Bill,B-10413,Plant Hire,PRJ-003,696738,Earthworks and plant — Ashgrove Apartment Refurbishment — Mar 2026,31-23-00
+Bill,B-10430,Materials,PRJ-006,2329250,Concrete supply — Sandstone School Upgrade — Mar 2026,03-30-00
+Bill,B-10434,Subcontractors,PRJ-006,1283333,Hydraulic services — Sandstone School Upgrade — Mar 2026,22-00-00
+Bill,B-10455,Subcontractors,PRJ-004,1545231,Electrical services — Murrin Bridge Repair — Apr 2026,26-00-00
+Bill,B-VOID-01,Plant Hire,PRJ-004,750000,Voided duplicate crane hire,31-23-00
+Bill,B-10461,Subcontractors,PRJ-005,900450,Electrical services — Ironbank Industrial Slab — Apr 2026,26-00-00
+Bill,B-10451,Materials,PRJ-004,2253462,Concrete supply — Murrin Bridge Repair — Apr 2026,03-30-00
+Bill,B-10456,Preliminaries,PRJ-005,956800,Site Services — Ironbank Industrial Slab — Apr 2026,01-50-00
+Bill,B-10464,Materials,PRJ-006,1520750,Concrete supply — Sandstone School Upgrade — Apr 2026,03-30-00
+Bill,B-10469,Subcontractors,PRJ-006,1098533,Mechanical services — Sandstone School Upgrade — Apr 2026,23-00-00
+Bill,B-10443,Materials,PRJ-003,1302462,Concrete supply — Ashgrove Apartment Refurbishment — Apr 2026,03-30-00
+Bill,B-10454,Subcontractors,PRJ-004,1167508,Hydraulic services — Murrin Bridge Repair — Apr 2026,22-00-00
+JournalEntry,PAY-20260414,Wages,PRJ-003,907063,Site payroll allocation — fortnight ending 2026-04-14,01-50-00
+JournalEntry,PAY-20260414,Wages,PRJ-004,758167,Site payroll allocation — fortnight ending 2026-04-14,01-50-00
+JournalEntry,PAY-20260414,Wages,PRJ-005,956380,Site payroll allocation — fortnight ending 2026-04-14,01-50-00
+JournalEntry,PAY-20260414,Wages,PRJ-006,850026,Site payroll allocation — fortnight ending 2026-04-14,01-50-00
+Bill,B-10457,Demolition,PRJ-005,848700,Demolition works — Ironbank Industrial Slab — Apr 2026,02-41-00
+Bill,B-10467,Subcontractors,PRJ-006,970200,Painting package — Sandstone School Upgrade — Apr 2026,09-90-00
+Bill,B-10446,Subcontractors,PRJ-003,520985,Painting package — Ashgrove Apartment Refurbishment — Apr 2026,09-90-00
+Bill,B-10459,Materials,PRJ-005,2480504,Structural steel — Ironbank Industrial Slab — Apr 2026,05-12-00
+Bill,B-10463,Demolition,PRJ-006,708400,Demolition works — Sandstone School Upgrade — Apr 2026,02-41-00
+Bill,B-10465,Materials,PRJ-006,2085417,Structural steel — Sandstone School Upgrade — Apr 2026,05-12-00
+Bill,B-10447,Subcontractors,PRJ-003,803446,Mechanical services — Ashgrove Apartment Refurbishment — Apr 2026,23-00-00
+Bill,B-10452,Subcontractors,PRJ-004,1133169,Carpentry package — Murrin Bridge Repair — Apr 2026,06-10-00
+Bill,B-10460,Subcontractors,PRJ-005,993600,Carpentry package — Ironbank Industrial Slab — Apr 2026,06-10-00
+Bill,B-10468,Subcontractors,PRJ-006,944533,Hydraulic services — Sandstone School Upgrade — Apr 2026,22-00-00
+Bill,B-10450,Preliminaries,PRJ-004,847015,Site Services — Murrin Bridge Repair — Apr 2026,01-50-00
+Bill,B-10458,Materials,PRJ-005,2205240,Concrete supply — Ironbank Industrial Slab — Apr 2026,03-30-00
+Bill,B-10453,Subcontractors,PRJ-004,695354,Painting package — Murrin Bridge Repair — Apr 2026,09-90-00
+Bill,B-10445,Subcontractors,PRJ-003,1224000,Partitions and linings — Ashgrove Apartment Refurbishment — Apr 2026,09-21-00
+Bill,B-10462,Plant Hire,PRJ-005,817650,Earthworks and plant — Ironbank Industrial Slab — Apr 2026,31-23-00
+Bill,B-10470,Subcontractors,PRJ-006,935550,Electrical services — Sandstone School Upgrade — Apr 2026,26-00-00
+JournalEntry,PAY-20260428,Wages,PRJ-003,1042691,Site payroll allocation — fortnight ending 2026-04-28,01-50-00
+JournalEntry,PAY-20260428,Wages,PRJ-004,1011244,Site payroll allocation — fortnight ending 2026-04-28,01-50-00
+JournalEntry,PAY-20260428,Wages,PRJ-005,1009743,Site payroll allocation — fortnight ending 2026-04-28,01-50-00
+JournalEntry,PAY-20260428,Wages,PRJ-006,978994,Site payroll allocation — fortnight ending 2026-04-28,01-50-00
+Bill,B-10444,Subcontractors,PRJ-003,1054523,Carpentry package — Ashgrove Apartment Refurbishment — Apr 2026,06-10-00
+Bill,B-10448,Subcontractors,PRJ-003,932123,Electrical services — Ashgrove Apartment Refurbishment — Apr 2026,26-00-00
+Bill,B-10449,Plant Hire,PRJ-003,988615,Earthworks and plant — Ashgrove Apartment Refurbishment — Apr 2026,31-23-00
+Bill,B-10466,Subcontractors,PRJ-006,1424500,Partitions and linings — Sandstone School Upgrade — Apr 2026,09-21-00
+Bill,B-10481,Subcontractors,PRJ-003,826462,Partitions and linings — Ashgrove Apartment Refurbishment — May 2026,09-21-00
+Bill,B-10483,Subcontractors,PRJ-003,652800,Hydraulic services — Ashgrove Apartment Refurbishment — May 2026,22-00-00
+Bill,B-10497,Subcontractors,PRJ-005,627900,Painting package — Ironbank Industrial Slab — May 2026,09-90-00
+Bill,B-10478,Materials,PRJ-003,1710462,Concrete supply — Ashgrove Apartment Refurbishment — May 2026,03-30-00
+Bill,B-10479,Materials,PRJ-003,1468800,Structural steel — Ashgrove Apartment Refurbishment — May 2026,05-12-00
+Bill,B-10494,Preliminaries,PRJ-005,874000,Site Services — Ironbank Industrial Slab — May 2026,01-50-00
+Bill,B-10506,Subcontractors,PRJ-006,854700,Electrical services — Sandstone School Upgrade — May 2026,26-00-00
+Bill,B-10492,Subcontractors,PRJ-004,1316308,Partitions and linings — Murrin Bridge Repair — May 2026,09-21-00
+Bill,B-10476,Preliminaries,PRJ-003,820185,Site Services — Ashgrove Apartment Refurbishment — May 2026,01-50-00
+Bill,B-10496,Subcontractors,PRJ-005,763600,Carpentry package — Ironbank Industrial Slab — May 2026,06-10-00
+Bill,B-10488,Demolition,PRJ-004,927138,Demolition works — Murrin Bridge Repair — May 2026,02-41-00
+Bill,B-10502,Demolition,PRJ-006,900900,Demolition works — Sandstone School Upgrade — May 2026,02-41-00
+JournalEntry,PAY-20260514,Wages,PRJ-003,999375,Site payroll allocation — fortnight ending 2026-05-14,01-50-00
+JournalEntry,PAY-20260514,Wages,PRJ-004,588266,Site payroll allocation — fortnight ending 2026-05-14,01-50-00
+JournalEntry,PAY-20260514,Wages,PRJ-005,949801,Site payroll allocation — fortnight ending 2026-05-14,01-50-00
+JournalEntry,PAY-20260514,Wages,PRJ-006,707819,Site payroll allocation — fortnight ending 2026-05-14,01-50-00
+Bill,B-10489,Materials,PRJ-004,1802769,Concrete supply — Murrin Bridge Repair — May 2026,03-30-00
+Bill,B-10495,Materials,PRJ-005,1876800,Concrete supply — Ironbank Industrial Slab — May 2026,03-30-00
+Bill,B-10500,Plant Hire,PRJ-005,1242000,Earthworks and plant — Ironbank Industrial Slab — May 2026,31-23-00
+Bill,B-10485,Subcontractors,PRJ-003,781477,Electrical services — Ashgrove Apartment Refurbishment — May 2026,26-00-00
+Bill,B-10486,Plant Hire,PRJ-003,837969,Earthworks and plant — Ashgrove Apartment Refurbishment — May 2026,31-23-00
+Bill,B-10498,Subcontractors,PRJ-005,947600,Hydraulic services — Ironbank Industrial Slab — May 2026,22-00-00
+Bill,B-10484,Subcontractors,PRJ-003,610954,Mechanical services — Ashgrove Apartment Refurbishment — May 2026,23-00-00
+Bill,B-10490,Materials,PRJ-004,1841400,Structural steel — Murrin Bridge Repair — May 2026,05-12-00
+Bill,B-10491,Subcontractors,PRJ-004,938585,Carpentry package — Murrin Bridge Repair — May 2026,06-10-00
+Bill,B-10499,Subcontractors,PRJ-005,745200,Mechanical services — Ironbank Industrial Slab — May 2026,23-00-00
+Bill,B-10504,Subcontractors,PRJ-006,831600,Carpentry package — Sandstone School Upgrade — May 2026,06-10-00
+Bill,B-10480,Subcontractors,PRJ-003,694646,Carpentry package — Ashgrove Apartment Refurbishment — May 2026,06-10-00
+Bill,B-10487,Preliminaries,PRJ-004,1018708,Site Services — Murrin Bridge Repair — May 2026,01-50-00
+Bill,B-10501,Preliminaries,PRJ-006,1088267,Site Services — Sandstone School Upgrade — May 2026,01-50-00
+Bill,B-10482,Subcontractors,PRJ-003,753231,Painting package — Ashgrove Apartment Refurbishment — May 2026,09-90-00
+Bill,B-10507,Plant Hire,PRJ-006,1155000,Earthworks and plant — Sandstone School Upgrade — May 2026,31-23-00
+Bill,B-10477,Demolition,PRJ-003,546092,Demolition works — Ashgrove Apartment Refurbishment — May 2026,02-41-00
+Bill,B-10503,Materials,PRJ-006,1835167,Structural steel — Sandstone School Upgrade — May 2026,05-12-00
+Bill,B-10505,Subcontractors,PRJ-006,1360333,Partitions and linings — Sandstone School Upgrade — May 2026,09-21-00
+JournalEntry,PAY-20260528,Wages,PRJ-003,904583,Site payroll allocation — fortnight ending 2026-05-28,01-50-00
+JournalEntry,PAY-20260528,Wages,PRJ-004,740074,Site payroll allocation — fortnight ending 2026-05-28,01-50-00
+JournalEntry,PAY-20260528,Wages,PRJ-005,667432,Site payroll allocation — fortnight ending 2026-05-28,01-50-00
+JournalEntry,PAY-20260528,Wages,PRJ-006,608307,Site payroll allocation — fortnight ending 2026-05-28,01-50-00
+Bill,B-10493,Subcontractors,PRJ-004,1120292,Electrical services — Murrin Bridge Repair — May 2026,26-00-00
+Bill,B-10517,Subcontractors,PRJ-003,1062892,Hydraulic services — Ashgrove Apartment Refurbishment — Jun 2026,22-00-00
+Bill,B-SPLIT-01,Materials,PRJ-004,1240000,Bridge bearing steel,05-12-00
+Bill,B-SPLIT-01,Materials,PRJ-006,870000,School canopy steel,05-12-00
+Bill,B-10527,Materials,PRJ-006,2002000,Concrete supply — Sandstone School Upgrade — Jun 2026,03-30-00
+Bill,B-10529,Subcontractors,PRJ-006,1270500,Partitions and linings — Sandstone School Upgrade — Jun 2026,09-21-00
+Bill,B-10530,Subcontractors,PRJ-006,931700,Painting package — Sandstone School Upgrade — Jun 2026,09-90-00
+Bill,B-10513,Preliminaries,PRJ-003,903877,Site Services — Ashgrove Apartment Refurbishment — Jun 2026,01-50-00
+Bill,B-10518,Subcontractors,PRJ-003,728123,Mechanical services — Ashgrove Apartment Refurbishment — Jun 2026,23-00-00
+JournalEntry,PAY-20260614,Wages,PRJ-003,903306,Site payroll allocation — fortnight ending 2026-06-14,01-50-00
+JournalEntry,PAY-20260614,Wages,PRJ-004,529826,Site payroll allocation — fortnight ending 2026-06-14,01-50-00
+JournalEntry,PAY-20260614,Wages,PRJ-006,549683,Site payroll allocation — fortnight ending 2026-06-14,01-50-00
+Bill,B-10528,Subcontractors,PRJ-006,975333,Carpentry package — Sandstone School Upgrade — Jun 2026,06-10-00
+Bill,B-10532,Subcontractors,PRJ-006,889350,Electrical services — Sandstone School Upgrade — Jun 2026,26-00-00
+Bill,B-10514,Materials,PRJ-003,1788923,Concrete supply — Ashgrove Apartment Refurbishment — Jun 2026,03-30-00
+Bill,B-10516,Subcontractors,PRJ-003,1150769,Partitions and linings — Ashgrove Apartment Refurbishment — Jun 2026,09-21-00
+Bill,B-10526,Plant Hire,PRJ-004,1622492,Earthworks and plant — Murrin Bridge Repair — Jun 2026,31-23-00
+Bill,B-10531,Subcontractors,PRJ-006,1262800,Hydraulic services — Sandstone School Upgrade — Jun 2026,22-00-00
+Bill,B-10525,Subcontractors,PRJ-004,1075938,Mechanical services — Murrin Bridge Repair — Jun 2026,23-00-00
+Bill,B-10524,Subcontractors,PRJ-004,635262,Painting package — Murrin Bridge Repair — Jun 2026,09-90-00
+Bill,B-10533,Plant Hire,PRJ-006,935550,Earthworks and plant — Sandstone School Upgrade — Jun 2026,31-23-00
+Bill,B-10519,Subcontractors,PRJ-003,922708,Electrical services — Ashgrove Apartment Refurbishment — Jun 2026,26-00-00
+Bill,B-10522,Materials,PRJ-004,1599600,Structural steel — Murrin Bridge Repair — Jun 2026,05-12-00
+Bill,B-10515,Subcontractors,PRJ-003,686277,Carpentry package — Ashgrove Apartment Refurbishment — Jun 2026,06-10-00
+Bill,B-10523,Subcontractors,PRJ-004,1445077,Partitions and linings — Murrin Bridge Repair — Jun 2026,09-21-00
+JournalEntry,PAY-20260628,Wages,PRJ-003,883433,Site payroll allocation — fortnight ending 2026-06-28,01-50-00
+JournalEntry,PAY-20260628,Wages,PRJ-004,822209,Site payroll allocation — fortnight ending 2026-06-28,01-50-00
+JournalEntry,PAY-20260628,Wages,PRJ-006,885548,Site payroll allocation — fortnight ending 2026-06-28,01-50-00
+Bill,B-10520,Plant Hire,PRJ-003,960369,Earthworks and plant — Ashgrove Apartment Refurbishment — Jun 2026,31-23-00
+Bill,B-10521,Preliminaries,PRJ-004,1396431,Site Services — Murrin Bridge Repair — Jun 2026,01-50-00
+Bill,B-10545,Subcontractors,PRJ-004,1043031,Electrical services — Murrin Bridge Repair — Jul 2026,26-00-00
+Bill,B-10546,Preliminaries,PRJ-006,811067,Site Services — Sandstone School Upgrade — Jul 2026,01-50-00
+Bill,B-10539,Preliminaries,PRJ-004,1030154,Site Services — Murrin Bridge Repair — Jul 2026,01-50-00
+JournalEntry,PAY-20260714,Wages,PRJ-004,683957,Site payroll allocation — fortnight ending 2026-07-14,01-50-00
+JournalEntry,PAY-20260714,Wages,PRJ-006,540340,Site payroll allocation — fortnight ending 2026-07-14,01-50-00
+Bill,B-10544,Subcontractors,PRJ-004,938585,Mechanical services — Murrin Bridge Repair — Jul 2026,23-00-00
+Bill,B-10541,Materials,PRJ-004,1695462,Concrete supply — Murrin Bridge Repair — Jul 2026,03-30-00
+Bill,B-10547,Materials,PRJ-006,2079000,Concrete supply — Sandstone School Upgrade — Jul 2026,03-30-00
+Bill,B-10549,Subcontractors,PRJ-006,1501500,Partitions and linings — Sandstone School Upgrade — Jul 2026,09-21-00
+Bill,B-10553,Plant Hire,PRJ-006,1305150,Earthworks and plant — Sandstone School Upgrade — Jul 2026,31-23-00
+Bill,B-10548,Subcontractors,PRJ-006,1160133,Carpentry package — Sandstone School Upgrade — Jul 2026,06-10-00
+Bill,B-10543,Subcontractors,PRJ-004,1445077,Partitions and linings — Murrin Bridge Repair — Jul 2026,09-21-00
+Bill,B-10551,Subcontractors,PRJ-006,1119067,Hydraulic services — Sandstone School Upgrade — Jul 2026,22-00-00
+Bill,B-10550,Subcontractors,PRJ-006,831600,Painting package — Sandstone School Upgrade — Jul 2026,09-90-00
+Bill,B-10540,Demolition,PRJ-004,1098831,Demolition works — Murrin Bridge Repair — Jul 2026,02-41-00
+JournalEntry,PAY-20260728,Wages,PRJ-004,672015,Site payroll allocation — fortnight ending 2026-07-28,01-50-00
+JournalEntry,PAY-20260728,Wages,PRJ-006,732886,Site payroll allocation — fortnight ending 2026-07-28,01-50-00
+Bill,B-10542,Subcontractors,PRJ-004,1018708,Carpentry package — Murrin Bridge Repair — Jul 2026,06-10-00
+Bill,B-10552,Subcontractors,PRJ-006,981750,Electrical services — Sandstone School Upgrade — Jul 2026,26-00-00

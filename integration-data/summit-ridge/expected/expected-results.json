@@ -1,0 +1,29 @@
+{
+  "seed": 20260814,
+  "transaction_headers": 563,
+  "transaction_lines": 1244,
+  "voided_headers": 1,
+  "unclassified_known": 2,
+  "cost_ex_tax": "6986858.47",
+  "gst": "552535.51",
+  "project_totals": {
+    "(unassigned)": "652343.68",
+    "PRJ-001": "1199817.06",
+    "PRJ-002": "1051569.35",
+    "PRJ-003": "1138008.90",
+    "PRJ-004": "1387975.93",
+    "PRJ-005": "788652.55",
+    "PRJ-006": "768491.00"
+  },
+  "known_cases": {
+    "loss_pressure_project": "PRJ-002",
+    "materials_overrun_project": "PRJ-005",
+    "late_payer_project": "PRJ-003",
+    "retention_heavy_project": "PRJ-004",
+    "pending_variation_project": "PRJ-006",
+    "void_transaction": "B-VOID-01",
+    "credit_transaction": "CN-9001",
+    "split_project_transaction": "B-SPLIT-01",
+    "untrusted_text_transaction": "B-SEC-01"
+  }
+}

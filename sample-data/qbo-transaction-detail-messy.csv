@@ -1,0 +1,50 @@
+Northwind Construction Pty Ltd,,,,,,,
+Transaction Detail by Account,,,,,,,
+"July 1-31, 2026",,,,,,,
+,,,,,,,
+Date,Transaction Type,Num,Name,Customer/Project,Memo/Description,Amount,Balance
+Materials,,,,,,,
+07/03/2026,Bill,B-1001,Boral Concrete,Northgate Warehouse,N32 concrete supply — slab pour A,"$12,400.00","$12,400.00"
+07/03/2026,Bill,B-1001,Boral Concrete,Northgate Warehouse,N32 concrete supply — slab pour B,"$3,100.00","$15,500.00"
+07/05/2026,Bill,B-1002,SteelFab Australia,Northgate Warehouse,310UB structural steel — portal frames,"$8,600.00","$24,100.00"
+07/05/2026,Bill,B-1002,SteelFab Australia,Bayside Aged Care,SHS columns — canopy,"$5,400.00","$29,500.00"
+07/05/2026,Bill,B-1002,SteelFab Australia,,Freight — split delivery,$220.00,"$29,720.00"
+07/15/2026,Bill,B-1006,OfficeWorks,Bayside Aged Care,Sundries,$640.00,"$30,360.00"
+,,,,,Total for Materials,"$30,360.00",
+,,,,,,,
+Subcontractors,,,,,,,
+07/08/2026,Bill,B-1003,CivilWorks Earthmoving,Northgate Warehouse,Bulk earthworks — progress claim 2,"$18,750.00","$18,750.00"
+07/14/2026,Bill,B-1005,Metro Roofing Co,Bayside Aged Care,Colorbond cladding — east elevation,"$22,300.00","$41,050.00"
+07/18/2026,Bill,B-1007,CivilWorks Earthmoving,Clearview Bridge,Approach paving — south abutment,"$14,200.00","$55,250.00"
+07/22/2026,CreditNote,CN-2001,Metro Roofing Co,Bayside Aged Care,Credit — over-claim adjustment PC5,"-$1,800.00","$53,450.00"
+,,,,,Total for Subcontractors,"$53,450.00",
+,,,,,,,
+Plant Hire,,,,,,,
+07/10/2026,Bill,B-1004,Coates Hire,Northgate Warehouse,Excavator hire — 2 weeks,"$3,200.00","$3,200.00"
+07/10/2026,Bill,B-1004,Coates Hire,Clearview Bridge,Crane hire — girder lift,"$2,800.00","$6,000.00"
+07/29/2026,Bill,B-1009,Coates Hire,Clearview Bridge,Voided: Scissor lift — VOIDED duplicate,$0.00,"$6,000.00"
+,,,,,Total for Plant Hire,"$6,000.00",
+,,,,,,,
+Wages,,,,,,,
+07/25/2026,JournalEntry,JE-3001,Northwind Payroll,Northgate Warehouse,Site labour — concrete crew wk30,"$6,800.00","$6,800.00"
+07/25/2026,JournalEntry,JE-3001,Northwind Payroll,Bayside Aged Care,Site labour — fixing crew wk30,"$4,200.00","$11,000.00"
+07/25/2026,JournalEntry,JE-3001,Northwind Payroll,,Head office salaries wk30,"$3,500.00","$14,500.00"
+,,,,,Total for Wages,"$14,500.00",
+,,,,,,,
+Office Overhead,,,,,,,
+07/28/2026,Bill,B-1008,OfficeWorks,,Monthly software + stationery,$900.00,$900.00
+,,,,,Total for Office Overhead,$900.00,
+,,,,,,,
+GST Payable,,,,,,,
+07/03/2026,Bill,B-1001,Boral Concrete,,GST on B-1001,"$1,550.00","$1,550.00"
+07/05/2026,Bill,B-1002,SteelFab Australia,,GST on B-1002,"$1,422.00","$2,972.00"
+07/08/2026,Bill,B-1003,CivilWorks Earthmoving,,GST on B-1003,"$1,875.00","$4,847.00"
+07/10/2026,Bill,B-1004,Coates Hire,,GST on B-1004,$600.00,"$5,447.00"
+07/14/2026,Bill,B-1005,Metro Roofing Co,,GST on B-1005,"$2,230.00","$7,677.00"
+07/15/2026,Bill,B-1006,OfficeWorks,,GST on B-1006,$64.00,"$7,741.00"
+07/18/2026,Bill,B-1007,CivilWorks Earthmoving,,GST on B-1007,"$1,420.00","$9,161.00"
+07/22/2026,CreditNote,CN-2001,Metro Roofing Co,,GST on CN-2001,-$180.00,"$8,981.00"
+07/28/2026,Bill,B-1008,OfficeWorks,,GST on B-1008,$90.00,"$9,071.00"
+07/29/2026,Bill,B-1009,Coates Hire,,Voided: GST on B-1009,$0.00,"$9,071.00"
+,,,,,Total for GST Payable,"$9,071.00",
+,,,,,,,

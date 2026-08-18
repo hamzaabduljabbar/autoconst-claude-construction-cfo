@@ -1,0 +1,9 @@
+vendor,project,doc_type,doc_no,issue_date,due_date,amount,open_balance
+Redgum Civil,MBR,Bill,B-7001,2026-07-22,2026-08-21,88000.00,88000.00
+Coates Hire,MBR,Bill,B-7002,2026-08-03,2026-09-02,26500.00,26500.00
+Delta Electrical,SCH,Bill,B-7010,2026-07-27,2026-08-26,54000.00,54000.00
+Boral Concrete,SCH,Bill,B-7011,2026-08-09,2026-09-08,41000.00,41000.00
+Precision Carpentry,APR,Bill,B-7020,2026-07-02,2026-08-01,33000.00,33000.00
+SteelFab Australia,ISL,Bill,B-7030,2026-07-30,2026-08-29,47000.00,47000.00
+PrimeCo Painting,WHX,Bill,B-7040,2026-08-07,2026-09-06,18500.00,18500.00
+Axis Interiors,MCF,Bill,B-7050,2026-08-16,2026-09-15,62000.00,62000.00
