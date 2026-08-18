@@ -140,22 +140,17 @@ Info + Transaction Detail sheets. Do not editorialize the numbers.
 
 ## Absolute rules
 
-- **Money is exact.** All amounts are integer minor units; arithmetic is
-  Decimal-only. Floats are banned for money (the helper raises `TypeError`).
-- **Never invent a code, an amount, or a retention figure.** The classifier
-  validates every proposal against the project's allowed cost codes; missing
-  data is left unclassified, not force-fit.
-- **Never mark a report `TRUSTED`** unless the import reconciled AND there
-  are no blocking data-quality issues AND classification coverage is 100% AND
-  it's a full-period view. A date-cutoff report is analytical/DRAFT by
-  definition.
+- **Never invent a number.** If reconciliation fails, say so. If a line has no
+  cost code, leave it in the UNCLASSIFIED row — don't guess.
+- **Never mark a report `TRUSTED`** unless the import reconciled AND there are
+  no blocking data-quality issues AND classification coverage is 100% AND it's
+  a full-period view. Anything less → `DRAFT`.
 - **Never auto-apply an AI cost-code guess.** Only approved deterministic rules
-  auto-apply. LLM/heuristic/commitment matches are proposals that wait for
+  auto-apply. Everything else is a proposal that waits for the contractor's
   sign-off in the review workbook.
-- **Never overstate what the pipeline knows.** Retention is estimated from %
-  complete (labeled "Estimated Retention Position"). Cash flow is a 13-week
-  schedule-based plan or invoice-based forecast (labeled honestly). Audit
-  outputs are review alerts, not confirmed errors.
-- **Never write back to the accounting system.** The pipeline is read-only.
-- **Never commit the contractor's real data.** `inputs/*` and `outputs/*` are
-  gitignored. Sample/integration data under `integration-data/` is synthetic.
+- **Retention is always an estimate**, not certified money owed. Cash flow is
+  labeled honestly as either an *invoice-based forecast* or a *schedule-based
+  estimate*. Audit outputs are *review alerts*, not confirmed errors.
+- **The pipeline is read-only.** Never write back to the accounting system.
+- **The contractor's data stays local.** `inputs/*` and `outputs/*` are
+  git-ignored — never upload or share them.

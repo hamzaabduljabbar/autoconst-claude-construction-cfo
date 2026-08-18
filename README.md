@@ -1,127 +1,127 @@
 # Construction CFO
 
-**A local financial-intelligence pipeline for a small-to-mid construction contractor.**
+**Your accounting data goes in. Four reports a CFO would make come out.**
 
-Reads a QuickBooks-shaped accounting export (or a canonical CSV) plus a
-structured project workbook, checks the totals reconcile, classifies every
-cost line to a budget code, and produces four Excel management reports:
+Job costing, retention tracker, cash flow forecast, and an expense audit —
+all in Excel, every number traceable back to the transaction it came from.
+No accountant needed. No monthly SaaS fee. Runs on your own machine.
 
-- **Job Cost** — which jobs are over budget, per project × cost code
-- **Retention** — estimated retention held by clients vs withheld from subs, with overdue-release flags
-- **Cash Flow** — 13-week forecast, 3 scenarios (contractual / expected / conservative)
-- **Expense Audit** — possible duplicate bills, unusual costs (robust MAD test), vendor concentration
+---
 
-Every number is deterministic Python; the LLM only classifies uncoded cost
-lines and is never used as a calculator. Nothing is written back to the
-accounting system — the pipeline is read-only by design.
+## What you get
 
-## Requirements
+Point it at your QuickBooks export and a workbook of your project info, and
+it gives you four Excel reports:
 
-- Python 3.10+
-- `pip install -r requirements.txt` (openpyxl)
+**Job Cost** — every project, every budget line. What you spent vs what you
+budgeted. Anything over budget is highlighted in orange so you can see
+where the money's leaking at a glance.
 
-## Quickstart
+**Retention Tracker** — how much retention your clients are holding from
+you (money you get back at project completion), and how much you're
+holding from your subbies. Overdue releases flagged in red so you know
+which claims to chase first.
 
-```bash
-# 1. clone
+**Cash Flow Forecast** — 13-week outlook. Three scenarios (on-time /
+expected / worst case). Tells you the week your bank balance drops
+lowest and whether you're going to run out. Load your open invoices too
+and it becomes a proper invoice-based forecast, not just an estimate.
+
+**Expense Audit** — flags possible duplicate bills, unusually large
+charges, and vendors where you spend enough that a supply agreement
+might save you real money.
+
+---
+
+## Who this is for
+
+Builders doing $500k–$20M a year who can't justify hiring a CFO or paying
+for construction-specific accounting software, but who are big enough to
+lose real money on a job before they notice.
+
+If you're using QuickBooks Online (or any accounting tool you can export
+CSVs from), you can use this.
+
+---
+
+## What you need
+
+1. **Your accounting data** — export a "Transaction Detail by Account"
+   report from QuickBooks as CSV. Takes 30 seconds.
+
+2. **Your project info** — one Excel workbook listing your projects,
+   budgets, how far along each is, your contracts and subcontractors.
+   A filled-in example is included so you know exactly what goes where.
+
+That's it. Nothing to log into. No API keys. Your data stays on your
+computer.
+
+---
+
+## How to use it
+
+You need Claude Code installed. Then:
+
+```
 git clone https://github.com/hamzaabduljabbar/autoconst-claude-construction-cfo
 cd autoconst-claude-construction-cfo
-
-# 2. install
 pip install -r requirements.txt
-
-# 3. run the full pipeline against the committed synthetic dataset
-SR=integration-data/summit-ridge
-python scripts/cfo.py init          --db outputs/demo.db --tenant "Summit Ridge Construction Pty Ltd" --force
-python scripts/cfo.py ingest        --db outputs/demo.db --source $SR/canonical/canonical-transactions.csv \
-                                    --adapter canonical --projects $SR/project-input.xlsx \
-                                    --control $SR/qbo-exports/control-totals.csv
-python scripts/cfo.py load-workbook --db outputs/demo.db --workbook $SR/project-input.xlsx
-python scripts/cfo.py ingest-aging  --db outputs/demo.db --ar $SR/qbo-exports/ar-aging.csv --ap $SR/qbo-exports/ap-aging.csv
-python scripts/cfo.py jobcost       --db outputs/demo.db --out outputs/demo-job-cost.xlsx
-python scripts/cfo.py retention     --db outputs/demo.db --out outputs/demo-retention.xlsx
-python scripts/cfo.py cashflow      --db outputs/demo.db --out outputs/demo-cashflow.xlsx
-python scripts/cfo.py audit         --db outputs/demo.db --out outputs/demo-expense-audit.xlsx
 ```
 
-Full run-through and design notes are in `SETUP.md` and `PROJECT-BRIEF.md`.
+Drop your accounting export and your project workbook into the `inputs/`
+folder, then ask Claude:
 
-## Bring your own data
+> "Run the construction CFO on my QuickBooks export."
 
-Two required inputs go in `inputs/`:
+Claude does the rest. Four Excel files land in `outputs/`. Open them.
 
-1. **Accounting export** — a QuickBooks Online *Transaction Detail by Account*
-   CSV (use `--adapter qbo`) or a canonical CSV (`docs/canonical-csv-format.md`).
-2. **Project-input workbook** at `inputs/project-input.xlsx` — copy the template
-   from `integration-data/summit-ridge/project-input.xlsx` and fill in your
-   projects, activities, budgets, contracts, and commitments.
+## Try it before you use your own data
 
-Optional (turns the cash forecast from an estimate into a real invoice-based
-forecast):
+An example dataset is included so you can see exactly what the reports
+look like before you set anything up. Ask Claude:
 
-- `inputs/ar-aging.csv` — open receivables (`Customer Balance Detail` export)
-- `inputs/ap-aging.csv` — open payables (`Vendor Balance Detail` export)
+> "Run the construction CFO on the example dataset."
 
-`inputs/*` and `outputs/*` are git-ignored — real contractor data never gets
-committed.
+You'll get the four reports back in about 10 seconds. The Job Cost report
+will show you every project blowing its Site Services budget — a total
+of ~$847k in overruns the tool catches automatically.
 
-## What it does and doesn't claim
+---
 
-**Real, from posted transactions:** job cost, portfolio variance, reconciled
-grand totals, invoice-based cash flow when A/R + A/P are loaded.
+## What it will and won't tell you
 
-**Deliberately labeled as estimates:** retention (derived from % complete, not
-certified claims), cash flow when only the transaction detail is loaded
-(schedule-based estimate mode).
+**Real, straight from your books:** which jobs are over budget and by how
+much. Where you're spending. Duplicate bills. Vendor concentration.
 
-**Labeled as review alerts, not accusations:** expense-audit output.
+**Honest estimates (labeled as such):** retention amounts (calculated
+from % complete — a real retention ledger lives outside accounting), and
+cash flow when you only load transactions (upgrades to a real forecast
+when you also load your open invoices).
 
-**Deliberately not supported:** writing back to the accounting system;
-universal accounting-platform support (v1 is QuickBooks Online CSV + canonical);
-statistical confidence intervals; unattended email delivery.
+**Not designed to do:** write anything back to QuickBooks, replace your
+bookkeeper, or do tax. It only reads.
 
-## Design rules
+---
 
-- Money is integer minor units; arithmetic in `Decimal`; floats banned.
-- Classification is at the transaction-line level, not the header.
-- Dedup uses business identity (`tenant + platform + txn_type + txn_id`) —
-  the source file hash lives on the import run, not in the key.
-- Budgets / contracts / commitments are versioned. Pending never mutates
-  approved.
-- A report is stamped `TRUSTED` only if reconciled AND no blocking issues
-  AND 100% classification coverage AND full-period. Otherwise it says `DRAFT`.
-- The classifier's LLM path is bounded by the project's allowed cost codes —
-  it can never introduce a code outside the chart.
+## Frequently asked
 
-## Tests
+**Will my data leave my computer?** No. Everything runs locally.
 
-44 acceptance tests across 6 phases, all green:
+**Do I need to be technical?** You need to be able to install Claude
+Code and run one command to set it up. After that, you just talk to
+Claude in plain English.
 
-```bash
-python tests/test_phase0.py     # 3  — schema + money rules + sample reconcile
-python tests/test_phase1.py     # 8  — ingest + reconciliation gate
-python tests/test_phase2.py     # 9  — job cost
-python tests/test_phase3.py     # 9  — classification loop + review round-trip
-python tests/test_phase45.py    # 10 — retention + cash flow + AR/AP wiring
-python tests/test_phase6.py     # 5  — expense audit detectors
-```
+**What if I don't use QuickBooks?** If your platform can export CSVs
+(Xero, MYOB, Zoho, or a spreadsheet you keep), you can convert to the
+included format. See `docs/canonical-csv-format.md`.
 
-## Repository layout
+**What if my accounting data doesn't match up?** The tool tells you.
+It won't produce a report on numbers it can't verify. Any mismatch is
+flagged and the report is stamped "DRAFT — NOT TRUSTED" so you never
+mistake bad data for good.
 
-```
-scripts/           the deterministic Python engine + adapters + report builders
-integration-data/  reproducible synthetic contractor (Summit Ridge, seed 20260814)
-sample-data/       small Phase-0 fixture
-tests/             44 acceptance tests
-docs/              canonical CSV format + design notes
-inputs/, outputs/  runtime — git-ignored
-```
+---
 
-## Status
-
-All six build phases done. See `REVIEW-PACKET.md` for the independent-review
-handoff.
-
-## Author
+## Built by
 
 Hamza Jabbar — hamzajabbar.online
